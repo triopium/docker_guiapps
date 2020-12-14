@@ -1,0 +1,19 @@
+# IntelliJ project files
+.idea
+.idea/project-template.iml
+out
+gen
+pkg
+
+# dep
+src/afdustredna/vendor
+.netrc
+.netrc*
+
+# Go build
+src/afdustredna/main
+
+# emacs, vim backup files
+\#*
+\.\#*
+*~
