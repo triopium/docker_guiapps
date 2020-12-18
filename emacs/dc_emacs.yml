@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  emagui:
+    image: emagui:latest
+    build:
+      context: .
+      dockerfile: df_emacs
+      # args: # during bulid
+    environment:
+      - DISP="$DISPLAY"
+      # NOT WORKING! MUST SOLVE GETTING VARIBLE: MAYBE ENV VAR?
+      - TOK="$(xauth list | grep $HOSTNAME | awk '{printf $3}')"
+    
+        

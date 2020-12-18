@@ -1,0 +1,29 @@
+FROM ubuntu
+
+# XAUTH ENV
+ENV DISP :1
+ENV TOK mytoken
+
+# USER ENV
+ENV RUID=$UID
+ENV RUSER=$USER
+ENV RGROUPS=$RGROUPS
+
+# COPY init.el $HOME/.emacs.d/
+# COPY use-package.el $HOME.emacs.d/
+# COPY init-packages.el $HOME.emacs.d/ 
+
+# Install dependencies
+RUN apt-get -y update \
+	&& apt-get -y install xauth \
+	emacs \
+	vifm 
+
+RUN useradd -m -s /bin/bash -u 1000 jk
+ENTRYPOINT bash
+
+#ENTRYPOINT useradd -u $RUID $RUSER \
+#	&& su $RUSER \
+#	&& xauth add $DISP . $TOK \
+#	&& bash
+
