@@ -1,0 +1,9 @@
+FROM ubuntu
+ARG MY_USER
+ARG MY_UID
+# RUN apk add useradd
+# RUN echo $MY_UID $MY_USER
+RUN useradd -m -s /bin/bash -u $MY_UID $MY_USER
+
+
+# $ docker build --build-arg MY_UID=1234 --build-arg MY_USER=me . 
