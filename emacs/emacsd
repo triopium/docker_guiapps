@@ -1,17 +1,31 @@
+# TODO: ban root account logging
 FROM ubuntu
+
+# ADD APPS
 RUN apt-get -y update \
 	&& apt-get -y install xauth \
 	emacs \
 	vifm 
 
+# USER CREATE
 ARG MY_USER
+ARG MY_GROUP
 ARG MY_UID
-RUN useradd -m -s /bin/bash -u $MY_UID $MY_USER 
-USER  $MY_USER
-ENV DISP :1
-ENV XTOK mytoken
+ARG MY_GID
+RUN useradd -m -s /bin/bash -u $MY_UID $MY_USER
 WORKDIR "/home/$MY_USER"
+ADD  ./emacs.d/ ./.emacs.d/
+RUN chown -R "$MY_USER":"$MY_GROUP" ./.emacs.d/
+# --chown=myuser:mygroup 
 
-ENTRYPOINT  touch .Xauthority \
-	&& xauth add $DISP . $XTOK \
-	&& bash
+# MODIFY USER
+USER  $MY_USER
+
+
+## FOLLOWING DEPRECATED
+# ENV DISP :1
+# ENV XTOK mytoken
+# RUN  touch .Xauthority \
+	# && xauth add $DISP . $XTOK
+# ENTRYPOINT  touch .Xauthority \
+	# && xauth add $DISP . $XTOK
