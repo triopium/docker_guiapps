@@ -13,13 +13,15 @@
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 
-;; List packages to install
-(setq package-list
-      ;; '(solarized-theme evil use-package))
-      '(solarized-theme evil))
 
 ;; activate all the packages
 (package-initialize)
+
+;; List packages to install
+(setq package-list
+      '(solarized-theme evil use-package))
+      ;; '(solarized-theme evil))
+
 
 ;; fetch the list of packages available 
 (unless package-archive-contents

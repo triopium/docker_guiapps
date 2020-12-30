@@ -5,5 +5,5 @@
 ;;COLORSCHEME
 ;; (load-theme 'solarized-dark)
 
-(load "~/.emacs.d/init-packages.el")
+;; (load "~/.emacs.d/init-packages.el")
 

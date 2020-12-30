@@ -1,13 +1,20 @@
 # TODO: ban root account logging
-FROM ubuntu
+FROM ubuntu:latest as base
 
 # ADD APPS
 RUN apt-get -y update \
-	&& apt-get -y install xauth \
+	&& DEBIAN_FRONTEND=noninteractive \
+	apt-get -y  \
+	--no-install-recommends \
+	install \
+	ca-certificates \
+	xauth \
 	emacs \
-	vifm 
+	vifm \
+	git-all
 
 # USER CREATE
+FROM base as userspec
 ARG MY_USER
 ARG MY_GROUP
 ARG MY_UID
