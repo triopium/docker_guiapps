@@ -40,8 +40,35 @@
     )
 
 
+;; THEMES
 (use-package solarized-theme
 	     :ensure t
 	     :config
 	     (load-theme 'solarized-dark t)
+	     )
+
+(use-package molokai-theme
+	     :disabled
+  :ensure t
+  :load-path "themes"
+  :init
+  (setq molokai-theme-kit t)
+  :config
+  (load-theme 'molokai t)
+  )
+
+;; JUMP
+(use-package better-jumper
+	     :ensure t
+	     :bind (
+		    ("C-o" . better-jumper-jump-backward)
+		    ("C-i" . better-jumper-jump-forward)
+		    )
+	     :init
+	     (setq better-jumper-context 'window)
+	     ;; (setq better-jumper-context 'buffer) 
+	     (setq better-jumper-max-length 100)
+	     (setq better-jumper-use-evil-jump-advice t)
+	     (setq better-jumper-add-jump-behavior 'append)
+	     ;; (setq better-jumper-add-jump-behavior 'replace)
 	     )
