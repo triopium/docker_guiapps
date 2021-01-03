@@ -23,7 +23,6 @@ RUN useradd -m -s /bin/bash -u $MY_UID $MY_USER
 WORKDIR "/home/$MY_USER"
 ADD  ./emacs.d/ ./.emacs.d/
 RUN chown -R "$MY_USER":"$MY_GROUP" ./.emacs.d/
-# --chown=myuser:mygroup 
 
 # MODIFY USER
 USER  $MY_USER

@@ -27,4 +27,7 @@ docker run -ti \
        -e XTOK="$tok" \
        --name "$CONTAINER_NAME" \
        -v "$HOME/tmp":"$HOME/wd/" \
+       -v "$HOME/Dop/docker_guiapps/emacs/emacs.d/straight_data":"$HOME/.emacs.d/straight/" \
        "$IMAGE_NAME" bash
+
+       # -v "$HOME/Dop/emacs/emacs.d/straight":"$HOME/.emacs.d" \
