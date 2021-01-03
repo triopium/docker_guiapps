@@ -21,7 +21,7 @@
     (setq evil-want-integration nil) ;; required by evil-collection
     (setq evil-want-keybinding nil)
     (setq evil-search-module 'evil-search)
-    (setq evil-ex-complete-emacs-commands nil)
+    (setq evil-ex-complete-emacs-commands t)
     (setq evil-vsplit-window-right t) ;; like vim's 'splitright'
     (setq evil-split-window-below t) ;; like vim's 'splitbelow'
     (setq evil-shift-round nil)
@@ -31,7 +31,7 @@
     )
 
 
-  ;; vim-like keybindings everywhere in emacs
+;; vim-like keybindings everywhere in emacs
 (use-package evil-collection
     :after evil
     :ensure t
@@ -40,6 +40,8 @@
     )
 
 
-(use-package solarized-dark
+(use-package solarized-theme
 	     :ensure t
+	     :config
+	     (load-theme 'solarized-dark t)
 	     )
