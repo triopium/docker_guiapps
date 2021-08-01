@@ -1,0 +1,31 @@
+version: '3.9'
+services:
+  firefox-music:
+    image: localhost/firefox
+    container_name: firefox-music
+    # hostname:
+    command: ash
+    # deploy:
+      # resources:
+        # limits:
+          # cpus: '0.50'
+          # memory: 2000M
+    shm_size: 2gb
+    devices:
+      - /dev/snd
+      - /dev/dri/card0
+    environment:
+      DISPLAY: "${DISPLAY}"
+    # ports:
+    volumes:
+      # - ${HOME}/Dop/docker_guiapps/firefox/data/music/:${HOME}/config:rw
+      # - /var/run/dbus:/var/run/dbus
+      - ${HOME}/Dop/docker_guiapps/firefox/data/music/:${HOME}/:rw
+      - /usr/share/fonts:/usr/share/fonts:ro
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${HOME}/_LIFE/Music:/${HOME}
+      - ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native
+      - ~/.config/pulse/cookie:/root/.config/pulse/cookie
+  # cap_drop:
+    # NET_ADMIN:
+    # SYS_ADMIN:

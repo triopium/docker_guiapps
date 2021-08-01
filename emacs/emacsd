@@ -11,7 +11,8 @@ RUN apt-get -y update \
 	xauth \
 	emacs \
 	vifm \
-	git-all
+	git-all \
+	vim
 
 # USER CREATE
 FROM base as userspec
@@ -19,19 +20,14 @@ ARG MY_USER
 ARG MY_GROUP
 ARG MY_UID
 ARG MY_GID
-RUN useradd -m -s /bin/bash -u $MY_UID $MY_USER
+
+RUN groupadd -g $MY_GID $MY_USER
+RUN adduser --uid $MY_UID --gid $MY_GID $MY_USER
+
 WORKDIR "/home/$MY_USER"
 ADD  ./emacs.d/ ./.emacs.d/
-RUN chown -R "$MY_USER":"$MY_GROUP" ./.emacs.d/
 
-# MODIFY USER
+RUN echo chown -R $MY_USER:$MY_GROUP ./.emacs.d/
+
+# MAKE DEFAULT USER
 USER  $MY_USER
-
-
-## FOLLOWING DEPRECATED
-# ENV DISP :1
-# ENV XTOK mytoken
-# RUN  touch .Xauthority \
-	# && xauth add $DISP . $XTOK
-# ENTRYPOINT  touch .Xauthority \
-	# && xauth add $DISP . $XTOK

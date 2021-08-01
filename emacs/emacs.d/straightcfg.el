@@ -14,6 +14,9 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
+;; GLOBAL HOTKEYS
+
+;; EVIL
 (use-package evil
     :ensure t
     :defer .1
@@ -26,8 +29,11 @@
     (setq evil-split-window-below t) ;; like vim's 'splitbelow'
     (setq evil-shift-round nil)
     (setq evil-want-C-u-scroll t)
+    (setq evil-collection-setup-minibuffer t) ;; use evil in minibuffer
     :config
     (evil-mode)
+    ;; (define-key evil-normal-state-map "+" 'text-scale-increase)
+    ;; (define-key evil-normal-state-map "-" 'text-scale-decrease)
     )
 
 
@@ -37,6 +43,8 @@
     :ensure t
     :config
     (evil-collection-init)
+    (define-key evil-normal-state-map "+" 'text-scale-increase)
+    (define-key evil-normal-state-map "-" 'text-scale-decrease)
     )
 
 
@@ -60,10 +68,10 @@
 ;; JUMP
 (use-package better-jumper
 	     :ensure t
-	     :bind (
-		    ("C-o" . better-jumper-jump-backward)
-		    ("C-i" . better-jumper-jump-forward)
-		    )
+	     ;; :bind (
+		    ;; ("C-l" . better-jumper-jump-backward)
+		    ;; ("C-i" . better-jumper-jump-forward)
+		    ;; )
 	     :init
 	     (setq better-jumper-context 'window)
 	     ;; (setq better-jumper-context 'buffer) 
@@ -72,3 +80,22 @@
 	     (setq better-jumper-add-jump-behavior 'append)
 	     ;; (setq better-jumper-add-jump-behavior 'replace)
 	     )
+
+;; FILE MANAGER
+;;;; Neotree
+(use-package neotree
+	     :ensure t
+	     ;; :bind (
+		    ;; ("C-+" . text-scale-increase)
+		    ;; ("C--" . text-scale-decrease)
+		    ;; )
+	     :init
+	     (setq neo-window-fixed-size nil)
+	     (setq neo-smart-open t)
+	     (global-set-key [f8] 'neotree-toggle)
+	     )
+
+;; (global-set-key (kbd "C-+") 'text-scale-decrease)
+;; (global-set-key (kbd "C--") 'text-scale-increase)
+;; (global-set-key "+" 'text-scale-increase)
+;; (global-set-key "-" 'text-scale-decrease)
