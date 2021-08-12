@@ -1,0 +1,31 @@
+# TODO: ban root account logging
+FROM ubuntu:latest as mybasenonrootubuntu
+
+# XAUTH ENV
+ENV DISP :1
+ENV TOK mytoken
+
+ARG APP_NAME
+ARG MY_USER
+ARG MY_GROUP
+ARG MY_UID
+ARG MY_GID
+ENV DEBUG_MODE=false
+
+RUN groupadd -g $MY_GID $MY_USER && \
+		adduser --uid $MY_UID --gid $MY_GID $MY_USER
+
+RUN apt-get -y update \
+	&& DEBIAN_FRONTEND=noninteractive \
+	apt-get -y  \
+	--no-install-recommends \
+	install \
+	ca-certificates \
+	xauth \
+	emacs \
+	vifm \
+	git-all \
+	vim
+FROM mybasenonrootubuntu
+USER $MY_USER
+WORKDIR $HOME

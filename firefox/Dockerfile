@@ -14,24 +14,21 @@ WORKDIR /home/$MY_USER/
 
 ## Create non-root user
 RUN addgroup -g $MY_GID $MY_GROUP && \
-	adduser -u $MY_UID $MY_USER -G $MY_GROUP -D
+	adduser -u $MY_UID $MY_USER -G $MY_GROUP -D && \
+	adduser $MY_USER audio 
 
-# alsa audio
-RUN adduser $MY_USER audio
-
-RUN apk add firefox-esr
+RUN apk update && \
+	apk upgrade && \
+	apk add firefox-esr \
+	ttf-freefont \
+	pulseaudio \
+	alsa-utils
 
 FROM mybaseimage
-RUN apk add pulseaudio
-RUN apk add --no-cache \
+RUN apk add \
     dbus-x11 \
-    dumb-init \
-    firefox-esr \
     mesa-gl \
-    mesa-dri-swrast \
-    ttf-freefont
-
-RUN apk add alsa-utils
-RUN apk add vlc
+    mesa-dri-swrast
+    # dumb-init \
 
 USER  $MY_USER

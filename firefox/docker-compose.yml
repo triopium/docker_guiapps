@@ -1,16 +1,10 @@
-version: '3.9'
+version: '2.2'
 services:
   firefox-music:
     image: localhost/firefox
     container_name: firefox-music
     # hostname:
     command: ash
-    # deploy:
-      # resources:
-        # limits:
-          # cpus: '0.50'
-          # memory: 2000M
-    shm_size: 2gb
     devices:
       - /dev/snd
       - /dev/dri/card0
@@ -20,12 +14,48 @@ services:
     volumes:
       # - ${HOME}/Dop/docker_guiapps/firefox/data/music/:${HOME}/config:rw
       # - /var/run/dbus:/var/run/dbus
-      - ${HOME}/Dop/docker_guiapps/firefox/data/music/:${HOME}/:rw
+      # - ${HOME}/_LIFE/Music:/${HOME}
       - /usr/share/fonts:/usr/share/fonts:ro
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ${HOME}/_LIFE/Music:/${HOME}
       - ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native
-      - ~/.config/pulse/cookie:/root/.config/pulse/cookie
+      - ${HOME}/.config/pulse/cookie:/root/.config/pulse/cookie
+      - ${HOME}/Dop/docker_guiapps/firefox/data/music/:${HOME}/:rw
+
+    cpus: "0.8"
+    # mem_limit: 2000m
+    shm_size: 4gb
+    # memswap_limit: 2000m
+    # cpus: '0.60'
+    # memory: 2000M
+    # deploy:
+      # resources:
+        # limits:
+          # cpus: '0.60'
+          # memory: 2000M
+          # memswap_limit: 2000M
   # cap_drop:
     # NET_ADMIN:
     # SYS_ADMIN:
+    #
+
+  firefox-po:
+    image: localhost/firefox
+    container_name: firefox-po
+    # hostname:
+    command: ash
+    devices:
+      - /dev/snd
+      - /dev/dri/card0
+    environment:
+      DISPLAY: "${DISPLAY}"
+    # ports:
+    volumes:
+      # - ${HOME}/Dop/docker_guiapps/firefox/data/music/:${HOME}/config:rw
+      # - /var/run/dbus:/var/run/dbus
+      # - ${HOME}/_LIFE/Music:/${HOME}
+      - /usr/share/fonts:/usr/share/fonts:ro
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${HOME}/Dop/docker_guiapps/firefox/data/po/:${HOME}/:rw
+      - ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native
+      - ~/.config/pulse/cookie:/root/.config/pulse/cookie
+    shm_size: 4gb

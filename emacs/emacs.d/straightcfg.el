@@ -21,6 +21,7 @@
     :ensure t
     :defer .1
     :init
+    ;; (setq evil-want-integration nil) ;; required by evil-collection
     (setq evil-want-integration nil) ;; required by evil-collection
     (setq evil-want-keybinding nil)
     (setq evil-search-module 'evil-search)

@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/better-jumper/better-jumper.el
