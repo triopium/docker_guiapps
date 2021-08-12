@@ -3,17 +3,22 @@ services:
   emacsdf:
     image: "localhost/emacs"
     container_name: emacsdf
+    hostname: emacsdf
     environment:
       DISPLAY: "${DISPLAY}"
     devices:
       - /dev/snd
       - /dev/dri/card0
-      - /dev/hidraw4
+      - /dev/hidraw5
     volumes:
       - /usr/share/fonts:/usr/share/fonts:ro
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native
       - ${HOME}/.config/pulse/cookie:/root/.config/pulse/cookie
-      - ${HOME}/Dop/docker_guiapps/emacs/emacs.d/:${HOME}/.emacs.d:rw
-      - ${HOME}/Dop/projects:${HOME}:rw
+      - ${PWD}/homedir:${HOME}:rw
       - ${HOME}/Govers/:${HOME}/Govers:rw
+      - ${PWD}/data/:${HOME}/data/:rw
+      - ${HOME}/Scripts/:${HOME}/Scripts:ro
+
+      # - ${HOME}/Dop/docker_guiapps/emacs/emacs.d/:${HOME}/.emacs.d:rw
+      # - ${HOME}/Dop/projects/:${HOME}/projects/:rw

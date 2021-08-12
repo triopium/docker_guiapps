@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/color-theme-molokai/molokai-theme.el
