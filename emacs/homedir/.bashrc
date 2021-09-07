@@ -118,9 +118,11 @@ fi
 
 ###################
 # additional
+echo "sourcing bashrc: $PWD"
 source ~/Scripts/bash/_Funcs/Goscripts.sh
 source ~/Scripts/bash/_Funcs/GoHelperScripts.sh
-GoVersionSelectScript "go1.16.5"
+GoVersionSelectFromEnv
+#GoVersionSelectScript "go1.16.5"
 
 
 

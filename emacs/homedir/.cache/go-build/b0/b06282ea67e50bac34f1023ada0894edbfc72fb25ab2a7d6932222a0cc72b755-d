@@ -1,0 +1,5 @@
+./apidiff.go
+./compatibility.go
+./correspondence.go
+./messageset.go
+./report.go

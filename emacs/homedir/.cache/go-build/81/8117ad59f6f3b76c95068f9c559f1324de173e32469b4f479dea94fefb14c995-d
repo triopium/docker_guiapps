@@ -1,0 +1,16 @@
+./analysis.go
+./cache.go
+./check.go
+./errors.go
+./imports.go
+./keys.go
+./load.go
+./mod.go
+./mod_tidy.go
+./parse.go
+./pkg.go
+./session.go
+./snapshot.go
+./symbols.go
+./view.go
+./workspace.go

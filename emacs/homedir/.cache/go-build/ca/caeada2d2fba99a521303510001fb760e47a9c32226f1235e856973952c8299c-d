@@ -1,0 +1,7 @@
+./client.go
+./doc.go
+./edit.go
+./editor.go
+./proxy.go
+./sandbox.go
+./workdir.go

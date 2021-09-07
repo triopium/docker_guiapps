@@ -25,12 +25,12 @@ RUN apt-get -y update \
 	emacs \
 	vifm \
 	git-all \
+	rsync \
+	tmux \
+	tshark \
 	vim
 
 FROM mybasenonrootubuntu
-RUN apt-get -y --no-install-recommends install \
-	rsync \
-  tmux
 # RUN adduser $MY_USER input
 USER $MY_USER
 WORKDIR /home/$MY_USER

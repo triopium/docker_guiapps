@@ -1,24 +1,27 @@
+# alias emacsdf="CWD=`pwd` docker-compose -f ~/Dop/docker_guiapps/emacs/docker-compose.yml run emacsdf" 'run emacs from current dir
+
+
 version: '3.9'
 services:
   emacsdf:
     image: "localhost/emacs"
     container_name: emacsdf
     hostname: emacsdf
+    env_file: "/${CWD}/.env"
     environment:
       DISPLAY: "${DISPLAY}"
     devices:
       - /dev/snd
       - /dev/dri/card0
-      - /dev/hidraw5
+      # - /dev/hidraw5
     volumes:
       - /usr/share/fonts:/usr/share/fonts:ro
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native
       - ${HOME}/.config/pulse/cookie:/root/.config/pulse/cookie
-      - ${PWD}/homedir:${HOME}:rw
-      - ${HOME}/Govers/:${HOME}/Govers:rw
-      - ${PWD}/data/:${HOME}/data/:rw
-      - ${HOME}/Scripts/:${HOME}/Scripts:ro
 
-      # - ${HOME}/Dop/docker_guiapps/emacs/emacs.d/:${HOME}/.emacs.d:rw
-      # - ${HOME}/Dop/projects/:${HOME}/projects/:rw
+      - ./homedir:${HOME}:rw
+      - ${HOME}/Govers/:${HOME}/Govers:rw
+      - ${HOME}/Scripts/:${HOME}/Scripts:ro
+      - ${CWD}/:${HOME}/Data/${BCWD}:rw
+    working_dir: ${DCWD}
