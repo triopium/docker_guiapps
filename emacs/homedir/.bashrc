@@ -118,7 +118,7 @@ fi
 
 ###################
 # additional
-echo "sourcing bashrc: $PWD"
+echo "sourcing bashrc: ~/Dop/docker_guiapps/emacs/homedir/.bashrc"
 source ~/Scripts/bash/_Funcs/Goscripts.sh
 source ~/Scripts/bash/_Funcs/GoHelperScripts.sh
 GoVersionSelectFromEnv

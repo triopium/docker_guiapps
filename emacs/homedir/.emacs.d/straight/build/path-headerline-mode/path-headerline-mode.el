@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/path-headerline-mode/path-headerline-mode.el

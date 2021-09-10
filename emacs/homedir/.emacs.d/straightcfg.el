@@ -14,8 +14,6 @@
 (straight-use-package 'use-package)
 (setq straight-use-package-by-default t)
 
-;; GLOBAL HOTKEYS
-
 ;; EVIL
 (use-package evil
     :ensure t
@@ -66,6 +64,99 @@
   (load-theme 'molokai t)
   )
 
+(use-package all-the-icons
+						 :ensure t
+						 )
+
+;; Upon hotkey display letter inside visible buffers and the press letter to jump to that buffer
+(use-package ace-window
+						 :ensure t
+						 :init
+						 (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
+						 (global-set-key (kbd "C-x o") 'ace-window)
+						 :diminish ace-window-mode
+						 )
+
+;; BUFFER HEADER
+;; https://www.emacswiki.org/emacs/HeaderLine
+(use-package path-headerline-mode
+						 :ensure t
+						 :init
+						 (path-headerline-mode 1)
+						 )
+ 
+
+;; MODELINE
+(use-package powerline
+						 :ensure t
+						 :init
+						 ;; :config
+						 (setq powerline-default-separator 'curve
+									 powerline-default-separator-dir (quote (left . right))
+									 powerline-height 25
+									 powerline-display-buffer-size t
+									 powerline-display-hud nil
+									 powerline-display-mule-info nil
+									 powerline-gui-use-vcs-glyph t
+									 powerline-inactive1 '((t (:background "grey11" :foreground "#c5c8c6")))
+									 powerline-inactive2 '((t (:background "grey20" :foreground "#c5c8c6")))
+									 )
+						 )
+
+						 ;; :config
+
+;; (use-package airline-themes
+						 ;; :ensure t
+						 ;; :after powerline
+						 ;; :config
+						 ;; (load-theme 'airline-distinguished t)
+						 ;; (defun powerline-evil-state ()
+							 ;; "Displays *my* version of displaying the evil state."
+							 ;; (case evil-state
+								 ;; ('normal " N")
+								 ;; ('insert " I")
+								 ;; ('visual " V")
+								 ;; ('motion " M")
+								 ;; (t       " E")))
+						 ;; )
+
+;; (use-package spaceline
+						 ;; :ensure t
+						 ;; :config
+						 ;; (setq spaceline-line-column-p t)
+						 ;; (powerline-reset)
+						 ;; )
+;; (use-package spaceline
+						 ;; )
+
+
+;; (use-package spaceline-config
+						 ;; :config
+						 ;; (spaceline-define-segment line-column
+							 ;; "The current line and column numbers."
+							 ;; "l:%l c:%2c")
+						 ;; )
+;; (use-package spaceline-config
+						 ;; :config
+						 ;; (spaceline-define-segment line-column
+							 ;; "The current line and column numbers."
+							 ;; "l:%l c:%2c")
+						 ;; )
+
+(use-package undo-tree
+  :ensure t
+  :diminish undo-tree-mode
+  :init
+  (global-undo-tree-mode 1)
+  :config
+  (defalias 'redo 'undo-tree-redo)
+  :bind
+	(
+	 ("C-z" . undo)     ; Zap to character isn't helpful
+   ("C-S-z" . redo)
+	 )
+	)
+
 ;; JUMP
 (use-package better-jumper
 	     :ensure t
@@ -86,17 +177,38 @@
 ;;;; Neotree
 (use-package neotree
 	     :ensure t
-	     ;; :bind (
+	     :bind (
+							;; :map neotree-mode-map
+							;; ("q" . neotree-hide)
 		    ;; ("C-+" . text-scale-increase)
 		    ;; ("C--" . text-scale-decrease)
-		    ;; )
+		    )
 	     :init
 	     (setq neo-window-fixed-size nil)
 	     (setq neo-smart-open t)
+			 ;; compact
+			 (setq neo-theme 'arrow)
+			 ;; (setq neo-theme 'ascii)
+			 ;; (setq neo-theme 'nerd)
+			 ;; (setq neo-theme 'icons)
 	     (global-set-key [f8] 'neotree-toggle)
+			 ;;(neotree-toggle)
 	     )
 
-;; (global-set-key (kbd "C-+") 'text-scale-decrease)
-;; (global-set-key (kbd "C--") 'text-scale-increase)
-;; (global-set-key "+" 'text-scale-increase)
-;; (global-set-key "-" 'text-scale-decrease)
+;; LISP
+(use-package rainbow-delimiters
+						 :commands (rainbow-delimiters-mode)
+						 :init
+						 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+						 )
+
+
+(use-package dash
+  :ensure t
+  :config (eval-after-load "dash" '(dash-enable-font-lock)))
+
+(use-package s
+  :ensure t)
+
+(use-package f
+  :ensure t)

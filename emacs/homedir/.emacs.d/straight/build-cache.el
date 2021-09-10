@@ -3,7 +3,7 @@
 
 "26.3"
 
-#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("org-elpa" ("2021-09-07 11:34:06" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2021-09-07 11:34:06" nil (:type git :host github :repo "melpa/melpa" :build nil :package "melpa" :local-repo "melpa")) "gnu-elpa-mirror" ("2021-09-07 11:34:06" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :build nil :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "el-get" ("2021-09-07 11:34:06" nil (:type git :host github :repo "dimitri/el-get" :build nil :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :flavor melpa :package "el-get" :local-repo "el-get")) "emacsmirror-mirror" ("2021-09-07 11:34:06" nil (:type git :host github :repo "emacs-straight/emacsmirror-mirror" :build nil :package "emacsmirror-mirror" :local-repo "emacsmirror-mirror")) "straight" ("2021-09-07 11:34:06" ("emacs") (:type git :host github :repo "raxod502/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "use-package" ("2021-09-07 11:34:06" ("emacs" "bind-key") (:type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package" :package "use-package" :local-repo "use-package")) "bind-key" ("2021-09-07 11:34:06" nil (:flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :package "bind-key" :local-repo "use-package" :type git :repo "jwiegley/use-package" :host github)) "evil" ("2021-09-07 11:34:06" ("emacs" "goto-chg" "cl-lib") (:type git :flavor melpa :files (:defaults "doc/build/texinfo/evil.texi" (:exclude "evil-test-helpers.el") "evil-pkg.el") :host github :repo "emacs-evil/evil" :package "evil" :local-repo "evil")) "goto-chg" ("2021-09-07 11:34:06" ("emacs") (:type git :flavor melpa :host github :repo "emacs-evil/goto-chg" :package "goto-chg" :local-repo "goto-chg")) "evil-collection" ("2021-09-07 11:34:06" ("emacs" "evil" "annalist") (:type git :flavor melpa :files (:defaults "modes" "evil-collection-pkg.el") :host github :repo "emacs-evil/evil-collection" :package "evil-collection" :local-repo "evil-collection")) "annalist" ("2021-09-07 11:34:06" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "noctuid/annalist.el" :package "annalist" :local-repo "annalist.el")) "solarized-theme" ("2021-09-07 11:34:06" ("emacs" "dash") (:type git :flavor melpa :host github :repo "bbatsov/solarized-emacs" :package "solarized-theme" :local-repo "solarized-emacs")) "dash" ("2021-09-07 11:34:06" ("emacs") (:type git :flavor melpa :files ("dash.el" "dash.texi" "dash-pkg.el") :host github :repo "magnars/dash.el" :package "dash" :local-repo "dash.el")) "better-jumper" ("2021-09-07 11:34:06" ("emacs") (:type git :flavor melpa :host github :repo "gilbertw1/better-jumper" :package "better-jumper" :local-repo "better-jumper")) "neotree" ("2021-09-07 11:34:06" ("cl-lib") (:type git :flavor melpa :files (:defaults "icons" "neotree-pkg.el") :host github :repo "jaypei/emacs-neotree" :package "neotree" :local-repo "emacs-neotree"))))
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("org-elpa" ("2021-09-10 09:53:17" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2021-09-10 09:53:17" nil (:type git :host github :repo "melpa/melpa" :build nil :package "melpa" :local-repo "melpa")) "gnu-elpa-mirror" ("2021-09-10 09:53:17" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :build nil :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "el-get" ("2021-09-10 09:53:17" nil (:type git :host github :repo "dimitri/el-get" :build nil :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :flavor melpa :package "el-get" :local-repo "el-get")) "emacsmirror-mirror" ("2021-09-10 09:53:17" nil (:type git :host github :repo "emacs-straight/emacsmirror-mirror" :build nil :package "emacsmirror-mirror" :local-repo "emacsmirror-mirror")) "straight" ("2021-09-10 09:53:17" ("emacs") (:type git :host github :repo "raxod502/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "use-package" ("2021-09-10 09:53:17" ("emacs" "bind-key") (:type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package" :package "use-package" :local-repo "use-package")) "bind-key" ("2021-09-10 09:53:17" nil (:flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :package "bind-key" :local-repo "use-package" :type git :repo "jwiegley/use-package" :host github)) "evil" ("2021-09-10 09:53:17" ("emacs" "goto-chg" "cl-lib") (:type git :flavor melpa :files (:defaults "doc/build/texinfo/evil.texi" (:exclude "evil-test-helpers.el") "evil-pkg.el") :host github :repo "emacs-evil/evil" :package "evil" :local-repo "evil")) "goto-chg" ("2021-09-10 09:53:17" ("emacs") (:type git :flavor melpa :host github :repo "emacs-evil/goto-chg" :package "goto-chg" :local-repo "goto-chg")) "evil-collection" ("2021-09-10 09:53:17" ("emacs" "evil" "annalist") (:type git :flavor melpa :files (:defaults "modes" "evil-collection-pkg.el") :host github :repo "emacs-evil/evil-collection" :package "evil-collection" :local-repo "evil-collection")) "annalist" ("2021-09-10 09:53:17" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "noctuid/annalist.el" :package "annalist" :local-repo "annalist.el")) "solarized-theme" ("2021-09-10 09:53:17" ("emacs" "dash") (:type git :flavor melpa :host github :repo "bbatsov/solarized-emacs" :package "solarized-theme" :local-repo "solarized-emacs")) "dash" ("2021-09-10 09:53:17" ("emacs") (:type git :flavor melpa :files ("dash.el" "dash.texi" "dash-pkg.el") :host github :repo "magnars/dash.el" :package "dash" :local-repo "dash.el")) "better-jumper" ("2021-09-10 09:53:17" ("emacs") (:type git :flavor melpa :host github :repo "gilbertw1/better-jumper" :package "better-jumper" :local-repo "better-jumper")) "neotree" ("2021-09-10 09:53:17" ("cl-lib") (:type git :flavor melpa :files (:defaults "icons" "neotree-pkg.el") :host github :repo "jaypei/emacs-neotree" :package "neotree" :local-repo "emacs-neotree")) "all-the-icons" ("2021-09-10 09:53:17" ("emacs") (:type git :flavor melpa :files (:defaults "data" "all-the-icons-pkg.el") :host github :repo "domtronn/all-the-icons.el" :package "all-the-icons" :local-repo "all-the-icons.el")) "ace-window" ("2021-09-10 09:53:17" ("avy") (:type git :flavor melpa :host github :repo "abo-abo/ace-window" :package "ace-window" :local-repo "ace-window")) "avy" ("2021-09-10 09:53:17" ("emacs" "cl-lib") (:type git :flavor melpa :host github :repo "abo-abo/avy" :package "avy" :local-repo "avy")) "airline-themes" ("2021-09-10 09:16:08" ("powerline") (:type git :flavor melpa :host github :repo "AnthonyDiGirolamo/airline-themes" :package "airline-themes" :local-repo "airline-themes")) "powerline" ("2021-09-10 09:53:17" ("cl-lib") (:type git :flavor melpa :host github :repo "milkypostman/powerline" :package "powerline" :local-repo "powerline")) "spaceline" ("2021-09-09 17:27:49" ("emacs" "cl-lib" "powerline" "dash" "s") (:type git :flavor melpa :host github :repo "TheBB/spaceline" :package "spaceline" :local-repo "spaceline")) "s" ("2021-09-10 09:53:17" nil (:type git :flavor melpa :files ("s.el" "s-pkg.el") :host github :repo "magnars/s.el" :package "s" :local-repo "s.el")) "rainbow-delimiters" ("2021-09-10 09:53:17" nil (:type git :flavor melpa :host github :repo "Fanael/rainbow-delimiters" :package "rainbow-delimiters" :local-repo "rainbow-delimiters")) "f" ("2021-09-10 09:53:17" ("s" "dash") (:type git :flavor melpa :files ("f.el" "f-pkg.el") :host github :repo "rejeep/f.el" :package "f" :local-repo "f.el")) "undo-tree" ("2021-09-10 09:53:17" nil (:type git :host github :repo "emacs-straight/undo-tree" :files ("*" (:exclude ".git")) :package "undo-tree" :local-repo "undo-tree")) "path-headerline-mode" ("2021-09-10 09:53:17" nil (:type git :flavor melpa :host github :repo "7696122/path-headerline-mode" :package "path-headerline-mode" :local-repo "path-headerline-mode"))))
 
 #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ((straight straight-autoloads straight-x) (autoload (quote straight-remove-unused-repos) "straight" "Remove unused repositories from the repos directory.
 A repo is considered \"unused\" if it was not explicitly requested via
@@ -642,10 +642,327 @@ automatically.
 
 (fn)" t nil) (autoload (quote neotree-dir) "neotree" "Show the NeoTree window, and change root to PATH.
 
-(fn PATH)" t nil) (defalias (quote neotree) (quote neotree-show) "Show the NeoTree window.") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "neotree" (quote ("neo" "off-p")))) (provide (quote neotree-autoloads)))))
+(fn PATH)" t nil) (defalias (quote neotree) (quote neotree-show) "Show the NeoTree window.") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "neotree" (quote ("neo" "off-p")))) (provide (quote neotree-autoloads))) "all-the-icons" ((all-the-icons all-the-icons-autoloads all-the-icons-faces) (autoload (quote all-the-icons-icon-for-dir) "all-the-icons" "Get the formatted icon for DIR.
+ARG-OVERRIDES should be a plist containining `:height',
+`:v-adjust' or `:face' properties like in the normal icon
+inserting functions.
 
-#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 9 "melpa" nil "gnu-elpa-mirror" nil "el-get" nil "emacsmirror-mirror" nil "straight" nil "use-package" nil "bind-key" nil "evil" nil "goto-chg" nil "cl-lib" nil "evil-collection" nil "annalist" nil "solarized-theme" nil "dash" nil "better-jumper" nil "neotree" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "gnu-elpa-mirror" nil "el-get" (el-get :type git :flavor melpa :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :host github :repo "dimitri/el-get") "emacsmirror-mirror" nil "straight" nil "use-package" (use-package :type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package") "bind-key" (bind-key :type git :flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :host github :repo "jwiegley/use-package") "evil" (evil :type git :flavor melpa :files (:defaults "doc/build/texinfo/evil.texi" (:exclude "evil-test-helpers.el") "evil-pkg.el") :host github :repo "emacs-evil/evil") "goto-chg" (goto-chg :type git :flavor melpa :host github :repo "emacs-evil/goto-chg") "cl-lib" nil "evil-collection" (evil-collection :type git :flavor melpa :files (:defaults "modes" "evil-collection-pkg.el") :host github :repo "emacs-evil/evil-collection") "annalist" (annalist :type git :flavor melpa :host github :repo "noctuid/annalist.el") "solarized-theme" (solarized-theme :type git :flavor melpa :host github :repo "bbatsov/solarized-emacs") "dash" (dash :type git :flavor melpa :files ("dash.el" "dash.texi" "dash-pkg.el") :host github :repo "magnars/dash.el") "better-jumper" (better-jumper :type git :flavor melpa :host github :repo "gilbertw1/better-jumper") "neotree" (neotree :type git :flavor melpa :files (:defaults "icons" "neotree-pkg.el") :host github :repo "jaypei/emacs-neotree"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 3 "emacsmirror-mirror" nil "straight" nil "cl-lib" nil)) el-get #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "emacsmirror-mirror" nil "straight" nil "cl-lib" nil)) emacsmirror-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "straight" (straight :type git :host github :repo "emacsmirror/straight") "cl-lib" nil))))
+Note: You want chevron, please use `all-the-icons-icon-for-dir-with-chevron'.
 
-("org-elpa" "melpa" "gnu-elpa-mirror" "el-get" "emacsmirror-mirror" "straight" "emacs" "use-package" "bind-key" "evil" "goto-chg" "cl-lib" "evil-collection" "annalist" "solarized-theme" "dash" "better-jumper" "neotree")
+(fn DIR &rest ARG-OVERRIDES)" nil nil) (autoload (quote all-the-icons-icon-for-file) "all-the-icons" "Get the formatted icon for FILE.
+ARG-OVERRIDES should be a plist containining `:height',
+`:v-adjust' or `:face' properties like in the normal icon
+inserting functions.
+
+(fn FILE &rest ARG-OVERRIDES)" nil nil) (autoload (quote all-the-icons-icon-for-mode) "all-the-icons" "Get the formatted icon for MODE.
+ARG-OVERRIDES should be a plist containining `:height',
+`:v-adjust' or `:face' properties like in the normal icon
+inserting functions.
+
+(fn MODE &rest ARG-OVERRIDES)" nil nil) (autoload (quote all-the-icons-icon-for-url) "all-the-icons" "Get the formatted icon for URL.
+If an icon for URL isn't found in `all-the-icons-url-alist', a globe is used.
+ARG-OVERRIDES should be a plist containining `:height',
+`:v-adjust' or `:face' properties like in the normal icon
+inserting functions.
+
+(fn URL &rest ARG-OVERRIDES)" nil nil) (autoload (quote all-the-icons-install-fonts) "all-the-icons" "Helper function to download and install the latests fonts based on OS.
+When PFX is non-nil, ignore the prompt and just install
+
+(fn &optional PFX)" t nil) (autoload (quote all-the-icons-insert) "all-the-icons" "Interactive icon insertion function.
+When Prefix ARG is non-nil, insert the propertized icon.
+When FAMILY is non-nil, limit the candidates to the icon set matching it.
+
+(fn &optional ARG FAMILY)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "all-the-icons" (quote ("all-the-icons-")))) (provide (quote all-the-icons-autoloads))) "avy" ((avy-autoloads avy) (autoload (quote avy-process) "avy" "Select one of CANDIDATES using `avy-read'.
+Use OVERLAY-FN to visualize the decision overlay.
+CLEANUP-FN should take no arguments and remove the effects of
+multiple OVERLAY-FN invocations.
+
+(fn CANDIDATES &optional OVERLAY-FN CLEANUP-FN)" nil nil) (autoload (quote avy-goto-char) "avy" "Jump to the currently visible CHAR.
+The window scope is determined by `avy-all-windows' (ARG negates it).
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-char-in-line) "avy" "Jump to the currently visible CHAR in the current line.
+
+(fn CHAR)" t nil) (autoload (quote avy-goto-char-2) "avy" "Jump to the currently visible CHAR1 followed by CHAR2.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+BEG and END narrow the scope where candidates are searched.
+
+(fn CHAR1 CHAR2 &optional ARG BEG END)" t nil) (autoload (quote avy-goto-char-2-above) "avy" "Jump to the currently visible CHAR1 followed by CHAR2.
+This is a scoped version of `avy-goto-char-2', where the scope is
+the visible part of the current buffer up to point.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR1 CHAR2 &optional ARG)" t nil) (autoload (quote avy-goto-char-2-below) "avy" "Jump to the currently visible CHAR1 followed by CHAR2.
+This is a scoped version of `avy-goto-char-2', where the scope is
+the visible part of the current buffer following point.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR1 CHAR2 &optional ARG)" t nil) (autoload (quote avy-isearch) "avy" "Jump to one of the current isearch candidates.
+
+(fn)" t nil) (autoload (quote avy-goto-word-0) "avy" "Jump to a word start.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+BEG and END narrow the scope where candidates are searched.
+
+(fn ARG &optional BEG END)" t nil) (autoload (quote avy-goto-whitespace-end) "avy" "Jump to the end of a whitespace sequence.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+BEG and END narrow the scope where candidates are searched.
+
+(fn ARG &optional BEG END)" t nil) (autoload (quote avy-goto-word-1) "avy" "Jump to the currently visible CHAR at a word start.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+BEG and END narrow the scope where candidates are searched.
+When SYMBOL is non-nil, jump to symbol start instead of word start.
+
+(fn CHAR &optional ARG BEG END SYMBOL)" t nil) (autoload (quote avy-goto-word-1-above) "avy" "Jump to the currently visible CHAR at a word start.
+This is a scoped version of `avy-goto-word-1', where the scope is
+the visible part of the current buffer up to point.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-word-1-below) "avy" "Jump to the currently visible CHAR at a word start.
+This is a scoped version of `avy-goto-word-1', where the scope is
+the visible part of the current buffer following point.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-symbol-1) "avy" "Jump to the currently visible CHAR at a symbol start.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-symbol-1-above) "avy" "Jump to the currently visible CHAR at a symbol start.
+This is a scoped version of `avy-goto-symbol-1', where the scope is
+the visible part of the current buffer up to point.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-symbol-1-below) "avy" "Jump to the currently visible CHAR at a symbol start.
+This is a scoped version of `avy-goto-symbol-1', where the scope is
+the visible part of the current buffer following point.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-subword-0) "avy" "Jump to a word or subword start.
+The window scope is determined by `avy-all-windows' (ARG negates it).
+
+When PREDICATE is non-nil it's a function of zero parameters that
+should return true.
+
+BEG and END narrow the scope where candidates are searched.
+
+(fn &optional ARG PREDICATE BEG END)" t nil) (autoload (quote avy-goto-subword-1) "avy" "Jump to the currently visible CHAR at a subword start.
+The window scope is determined by `avy-all-windows' (ARG negates it).
+The case of CHAR is ignored.
+
+(fn CHAR &optional ARG)" t nil) (autoload (quote avy-goto-word-or-subword-1) "avy" "Forward to `avy-goto-subword-1' or `avy-goto-word-1'.
+Which one depends on variable `subword-mode'.
+
+(fn)" t nil) (autoload (quote avy-goto-line) "avy" "Jump to a line start in current buffer.
+
+When ARG is 1, jump to lines currently visible, with the option
+to cancel to `goto-line' by entering a number.
+
+When ARG is 4, negate the window scope determined by
+`avy-all-windows'.
+
+Otherwise, forward to `goto-line' with ARG.
+
+(fn &optional ARG)" t nil) (autoload (quote avy-goto-line-above) "avy" "Goto visible line above the cursor.
+OFFSET changes the distance between the closest key to the cursor and
+the cursor
+When BOTTOM-UP is non-nil, display avy candidates from top to bottom
+
+(fn &optional OFFSET BOTTOM-UP)" t nil) (autoload (quote avy-goto-line-below) "avy" "Goto visible line below the cursor.
+OFFSET changes the distance between the closest key to the cursor and
+the cursor
+When BOTTOM-UP is non-nil, display avy candidates from top to bottom
+
+(fn &optional OFFSET BOTTOM-UP)" t nil) (autoload (quote avy-goto-end-of-line) "avy" "Call `avy-goto-line' and move to the end of the line.
+
+(fn &optional ARG)" t nil) (autoload (quote avy-copy-line) "avy" "Copy a selected line above the current line.
+ARG lines can be used.
+
+(fn ARG)" t nil) (autoload (quote avy-move-line) "avy" "Move a selected line above the current line.
+ARG lines can be used.
+
+(fn ARG)" t nil) (autoload (quote avy-copy-region) "avy" "Select two lines and copy the text between them to point.
+
+The window scope is determined by `avy-all-windows' or
+`avy-all-windows-alt' when ARG is non-nil.
+
+(fn ARG)" t nil) (autoload (quote avy-move-region) "avy" "Select two lines and move the text between them above the current line.
+
+(fn)" t nil) (autoload (quote avy-kill-region) "avy" "Select two lines and kill the region between them.
+
+The window scope is determined by `avy-all-windows' or
+`avy-all-windows-alt' when ARG is non-nil.
+
+(fn ARG)" t nil) (autoload (quote avy-kill-ring-save-region) "avy" "Select two lines and save the region between them to the kill ring.
+The window scope is determined by `avy-all-windows'.
+When ARG is non-nil, do the opposite of `avy-all-windows'.
+
+(fn ARG)" t nil) (autoload (quote avy-kill-whole-line) "avy" "Select line and kill the whole selected line.
+
+With a numerical prefix ARG, kill ARG line(s) starting from the
+selected line.  If ARG is negative, kill backward.
+
+If ARG is zero, kill the selected line but exclude the trailing
+newline.
+
+\\[universal-argument] 3 \\[avy-kil-whole-line] kill three lines
+starting from the selected line.  \\[universal-argument] -3
+
+\\[avy-kill-whole-line] kill three lines backward including the
+selected line.
+
+(fn ARG)" t nil) (autoload (quote avy-kill-ring-save-whole-line) "avy" "Select line and save the whole selected line as if killed, but don\342\200\231t kill it.
+
+This command is similar to `avy-kill-whole-line', except that it
+saves the line(s) as if killed, but does not kill it(them).
+
+With a numerical prefix ARG, kill ARG line(s) starting from the
+selected line.  If ARG is negative, kill backward.
+
+If ARG is zero, kill the selected line but exclude the trailing
+newline.
+
+(fn ARG)" t nil) (autoload (quote avy-setup-default) "avy" "Setup the default shortcuts.
+
+(fn)" nil nil) (autoload (quote avy-goto-char-timer) "avy" "Read one or many consecutive chars and jump to the first one.
+The window scope is determined by `avy-all-windows' (ARG negates it).
+
+(fn &optional ARG)" t nil) (autoload (quote avy-transpose-lines-in-region) "avy" "Transpose lines in the active region.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "avy" (quote ("avy-")))) (provide (quote avy-autoloads))) "ace-window" ((ace-window-autoloads ace-window) (autoload (quote ace-select-window) "ace-window" "Ace select window.
+
+(fn)" t nil) (autoload (quote ace-delete-window) "ace-window" "Ace delete window.
+
+(fn)" t nil) (autoload (quote ace-swap-window) "ace-window" "Ace swap window.
+
+(fn)" t nil) (autoload (quote ace-delete-other-windows) "ace-window" "Ace delete other windows.
+
+(fn)" t nil) (autoload (quote ace-display-buffer) "ace-window" "Make `display-buffer' and `pop-to-buffer' select using `ace-window'.
+See sample config for `display-buffer-base-action' and `display-buffer-alist':
+https://github.com/abo-abo/ace-window/wiki/display-buffer.
+
+(fn BUFFER ALIST)" nil nil) (autoload (quote ace-window) "ace-window" "Select a window.
+Perform an action based on ARG described below.
+
+By default, behaves like extended `other-window'.
+See `aw-scope' which extends it to work with frames.
+
+Prefixed with one \\[universal-argument], does a swap between the
+selected window and the current window, so that the selected
+buffer moves to current window (and current buffer moves to
+selected window).
+
+Prefixed with two \\[universal-argument]'s, deletes the selected
+window.
+
+(fn ARG)" t nil) (defvar ace-window-display-mode nil "Non-nil if Ace-Window-Display mode is enabled.
+See the `ace-window-display-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `ace-window-display-mode'.") (custom-autoload (quote ace-window-display-mode) "ace-window" nil) (autoload (quote ace-window-display-mode) "ace-window" "Minor mode for showing the ace window key in the mode line.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "ace-window" (quote ("ace-window-mode" "aw-")))) (provide (quote ace-window-autoloads))) "powerline" ((powerline-separators powerline-autoloads powerline powerline-themes) (autoload (quote powerline-hud) "powerline" "Return an XPM of relative buffer location using FACE1 and FACE2 of optional WIDTH.
+
+(fn FACE1 FACE2 &optional WIDTH)" nil nil) (autoload (quote powerline-mouse) "powerline" "Return mouse handler for CLICK-GROUP given CLICK-TYPE and STRING.
+
+(fn CLICK-GROUP CLICK-TYPE STRING)" nil nil) (autoload (quote powerline-concat) "powerline" "Concatonate STRINGS and pad sides by spaces.
+
+(fn &rest STRINGS)" nil nil) (autoload (quote defpowerline) "powerline" "Create function NAME by wrapping BODY with powerline padding an propetization.
+
+(fn NAME BODY)" nil t) (autoload (quote powerline-raw) "powerline" "Render STR as mode-line data using FACE and optionally PAD import on left (l) or right (r).
+
+(fn STR &optional FACE PAD)" nil nil) (autoload (quote powerline-fill) "powerline" "Return empty space using FACE and leaving RESERVE space on the right.
+
+(fn FACE RESERVE)" nil nil) (autoload (quote powerline-major-mode) "powerline") (autoload (quote powerline-minor-modes) "powerline") (autoload (quote powerline-narrow) "powerline") (autoload (quote powerline-vc) "powerline") (autoload (quote powerline-encoding) "powerline") (autoload (quote powerline-buffer-size) "powerline") (autoload (quote powerline-buffer-id) "powerline") (autoload (quote powerline-process) "powerline") (autoload (quote powerline-selected-window-active) "powerline") (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "powerline" (quote ("pl/" "powerline-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "powerline-separators" (quote ("powerline-image-apple-rgb" "pl/")))) (autoload (quote powerline-default-theme) "powerline-themes" "Setup the default mode-line.
+
+(fn)" t nil) (autoload (quote powerline-center-theme) "powerline-themes" "Setup a mode-line with major and minor modes centered.
+
+(fn)" t nil) (autoload (quote powerline-vim-theme) "powerline-themes" "Setup a Vim-like mode-line.
+
+(fn)" t nil) (autoload (quote powerline-nano-theme) "powerline-themes" "Setup a nano-like mode-line.
+
+(fn)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "powerline-themes" (quote ("powerline-")))) (provide (quote powerline-autoloads))) "airline-themes" ((airline-jet-theme airline-papercolor-theme airline-base16_default-theme airline-base16_snazzy-theme airline-base16_atelierlakeside-theme airline-base16_paraiso-theme airline-wombat-theme airline-base16_mocha-theme airline-doom-molokai-theme airline-base16_atelierforest-theme airline-base16_3024-theme airline-base16-theme airline-biogoo-theme airline-base16-gui-dark-theme airline-ayu_mirage-theme airline-hybridline-theme airline-qwq-theme airline-murmur-theme airline-luna-theme airline-base16_solarized-theme airline-solarized-gui-theme airline-doom-one-theme airline-ouo-theme airline-behelit-theme airline-kalisi-theme airline-base16_greenscreen-theme airline-light-theme airline-minimalist-theme airline-base16_colors-theme airline-base16_grayscale-theme airline-desertink-theme airline-themes airline-base16-shell-dark-theme airline-base16_chalk-theme airline-solarized_flood-theme airline-onedark-theme airline-base16_bright-theme airline-raven-theme airline-peaksea-theme airline-base16_embers-theme airline-violet-theme airline-simple-theme airline-sol-theme airline-durant-theme airline-base16_ocean-theme airline-xtermlight-theme airline-base16_atelierheath-theme airline-solarized-theme airline-base16_twilight-theme airline-base16_nord-theme airline-badwolf-theme airline-term_light-theme airline-base16_shapeshifter-theme airline-night_owl-theme airline-base16_isotope-theme airline-ayu_dark-theme airline-zenburn-theme airline-hybrid-theme airline-base16_classic-theme airline-base16_monokai-theme airline-fruit_punch-theme airline-serene-theme airline-laederon-theme airline-base16_pop-theme airline-base16_bespin-theme airline-deus-theme airline-gruvbox-dark-theme airline-base16_spacemacs-theme airline-ubaryd-theme airline-jellybeans-theme airline-themes-autoloads airline-base16_adwaita-theme airline-bubblegum-theme airline-base16_ashes-theme airline-ayu_light-theme airline-monochrome-theme airline-base16_railscasts-theme airline-silver-theme airline-base16_brewer-theme airline-base16_atelierseaside-theme airline-understated-theme airline-soda-theme airline-molokai-theme airline-base16_oceanicnext-theme airline-sierra-theme airline-cool-theme airline-dark_minimal-theme airline-fairyfloss-theme airline-solarized-alternate-gui-theme airline-distinguished-theme airline-dark-theme airline-term-theme airline-ravenpower-theme airline-base16_gruvbox_dark_hard-theme airline-base16_shell-theme airline-base16_atelierdune-theme airline-alduin-theme airline-base16_summerfruit-theme airline-atomic-theme airline-base16_tomorrow-theme airline-base16_harmonic16-theme airline-lucius-theme airline-base16_flat-theme airline-seagull-theme airline-owo-theme airline-base16_vim-theme airline-kolor-theme airline-base16_londontube-theme airline-cobalt2-theme airline-tomorrow-theme airline-base16_seti-theme airline-base16_codeschool-theme airline-base16-gui-light-theme airline-angr-theme airline-base16_marrakesh-theme airline-powerlineish-theme airline-base16_google-theme airline-base16_apathy-theme airline-base16color-theme airline-base16_hopscotch-theme airline-base16_eighties-theme) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-alduin-theme" (quote ("airline-alduin")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-angr-theme" (quote ("airline-angr")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-atomic-theme" (quote ("airline-atomic")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-ayu_dark-theme" (quote ("airline-ayu_dark")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-ayu_light-theme" (quote ("airline-ayu_light")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-ayu_mirage-theme" (quote ("airline-ayu_mirage")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-badwolf-theme" (quote ("airline-badwolf")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16-gui-dark-theme" (quote ("airline-base16-gui-dark")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16-gui-light-theme" (quote ("airline-base16-gui-light")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16-shell-dark-theme" (quote ("airline-base16-shell-dark")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16-theme" (quote ("airline-base16")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_3024-theme" (quote ("airline-base16_3024")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_adwaita-theme" (quote ("airline-base16_adwaita")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_apathy-theme" (quote ("airline-base16_apathy")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_ashes-theme" (quote ("airline-base16_ashes")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_atelierdune-theme" (quote ("airline-base16_atelierdune")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_atelierforest-theme" (quote ("airline-base16_atelierforest")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_atelierheath-theme" (quote ("airline-base16_atelierheath")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_atelierlakeside-theme" (quote ("airline-base16_atelierlakeside")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_atelierseaside-theme" (quote ("airline-base16_atelierseaside")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_bespin-theme" (quote ("airline-base16_bespin")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_brewer-theme" (quote ("airline-base16_brewer")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_bright-theme" (quote ("airline-base16_bright")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_chalk-theme" (quote ("airline-base16_chalk")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_classic-theme" (quote ("airline-base16_classic")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_codeschool-theme" (quote ("airline-base16_codeschool")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_colors-theme" (quote ("airline-base16_colors")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_default-theme" (quote ("airline-base16_default")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_eighties-theme" (quote ("airline-base16_eighties")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_embers-theme" (quote ("airline-base16_embers")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_flat-theme" (quote ("airline-base16_flat")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_google-theme" (quote ("airline-base16_google")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_grayscale-theme" (quote ("airline-base16_grayscale")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_greenscreen-theme" (quote ("airline-base16_greenscreen")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_gruvbox_dark_hard-theme" (quote ("airline-base16_gruvbox_dark_hard")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_harmonic16-theme" (quote ("airline-base16_harmonic16")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_hopscotch-theme" (quote ("airline-base16_hopscotch")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_isotope-theme" (quote ("airline-base16_isotope")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_londontube-theme" (quote ("airline-base16_londontube")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_marrakesh-theme" (quote ("airline-base16_marrakesh")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_mocha-theme" (quote ("airline-base16_mocha")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_monokai-theme" (quote ("airline-base16_monokai")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_nord-theme" (quote ("airline-base16_nord")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_ocean-theme" (quote ("airline-base16_ocean")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_oceanicnext-theme" (quote ("airline-base16_oceanicnext")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_paraiso-theme" (quote ("airline-base16_paraiso")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_pop-theme" (quote ("airline-base16_pop")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_railscasts-theme" (quote ("airline-base16_railscasts")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_seti-theme" (quote ("airline-base16_seti")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_shapeshifter-theme" (quote ("airline-base16_shapeshifter")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_shell-theme" (quote ("airline-base16_shell")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_snazzy-theme" (quote ("airline-base16_snazzy")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_solarized-theme" (quote ("airline-base16_solarized")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_spacemacs-theme" (quote ("airline-base16_spacemacs")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_summerfruit-theme" (quote ("airline-base16_summerfruit")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_tomorrow-theme" (quote ("airline-base16_tomorrow")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_twilight-theme" (quote ("airline-base16_twilight")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16_vim-theme" (quote ("airline-base16_vim")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-base16color-theme" (quote ("airline-base16color")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-behelit-theme" (quote ("airline-behelit")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-biogoo-theme" (quote ("airline-biogoo")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-bubblegum-theme" (quote ("airline-bubblegum")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-cobalt2-theme" (quote ("airline-cobalt2")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-cool-theme" (quote ("airline-cool")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-dark-theme" (quote ("airline-dark")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-dark_minimal-theme" (quote ("airline-dark_minimal")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-desertink-theme" (quote ("airline-desertink")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-deus-theme" (quote ("airline-deus")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-distinguished-theme" (quote ("airline-distinguished")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-doom-molokai-theme" (quote ("airline-doom-molokai")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-doom-one-theme" (quote ("airline-doom-one")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-durant-theme" (quote ("airline-durant")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-fairyfloss-theme" (quote ("airline-fairyfloss")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-fruit_punch-theme" (quote ("airline-fruit_punch")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-gruvbox-dark-theme" (quote ("airline-gruvbox-dark")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-hybrid-theme" (quote ("airline-hybrid")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-hybridline-theme" (quote ("airline-hybridline")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-jellybeans-theme" (quote ("airline-jellybeans")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-jet-theme" (quote ("airline-jet")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-kalisi-theme" (quote ("airline-kalisi")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-kolor-theme" (quote ("airline-kolor")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-laederon-theme" (quote ("airline-laederon")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-light-theme" (quote ("airline-light")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-lucius-theme" (quote ("airline-lucius")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-luna-theme" (quote ("airline-luna")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-minimalist-theme" (quote ("airline-minimalist")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-molokai-theme" (quote ("airline-molokai")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-monochrome-theme" (quote ("airline-monochrome")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-murmur-theme" (quote ("airline-murmur")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-night_owl-theme" (quote ("airline-night_owl")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-onedark-theme" (quote ("airline-onedark")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-ouo-theme" (quote ("airline-ouo")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-owo-theme" (quote ("airline-owo")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-papercolor-theme" (quote ("airline-papercolor")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-peaksea-theme" (quote ("airline-peaksea")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-powerlineish-theme" (quote ("airline-powerlineish")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-qwq-theme" (quote ("airline-qwq")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-raven-theme" (quote ("airline-raven")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-ravenpower-theme" (quote ("airline-ravenpower")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-seagull-theme" (quote ("airline-seagull")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-serene-theme" (quote ("airline-serene")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-sierra-theme" (quote ("airline-sierra")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-silver-theme" (quote ("airline-silver")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-simple-theme" (quote ("airline-simple")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-soda-theme" (quote ("airline-soda")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-sol-theme" (quote ("airline-sol")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-solarized-alternate-gui-theme" (quote ("airline-solarized-alternate-gui")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-solarized-gui-theme" (quote ("airline-solarized-gui")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-solarized-theme" (quote ("airline-solarized")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-solarized_flood-theme" (quote ("airline-solarized_flood")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-term-theme" (quote ("airline-term")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-term_light-theme" (quote ("airline-term_light")))) (when load-file-name (add-to-list (quote custom-theme-load-path) (file-name-as-directory (file-name-directory load-file-name)))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-themes" (quote ("airline-")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-tomorrow-theme" (quote ("airline-tomorrow")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-ubaryd-theme" (quote ("airline-ubaryd")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-understated-theme" (quote ("airline-understated")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-violet-theme" (quote ("airline-violet")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-wombat-theme" (quote ("airline-wombat")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-xtermlight-theme" (quote ("airline-xtermlight")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "airline-zenburn-theme" (quote ("airline-zenburn")))) (provide (quote airline-themes-autoloads))) "s" ((s s-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "s" (quote ("s-")))) (provide (quote s-autoloads))) "spaceline" ((spaceline-segments spaceline spaceline-autoloads spaceline-config) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "spaceline" (quote ("spaceline-")))) (autoload (quote spaceline-spacemacs-theme) "spaceline-config" "Install the modeline used by Spacemacs.
+
+ADDITIONAL-SEGMENTS are inserted on the right, between `global' and
+`buffer-position'.
+
+(fn &rest ADDITIONAL-SEGMENTS)" nil nil) (autoload (quote spaceline-emacs-theme) "spaceline-config" "Install a modeline close to the one used by Spacemacs, but which
+looks better without third-party dependencies.
+
+ADDITIONAL-SEGMENTS are inserted on the right, between `global' and
+`buffer-position'.
+
+(fn &rest ADDITIONAL-SEGMENTS)" nil nil) (defvar spaceline-helm-mode nil "Non-nil if Spaceline-Helm mode is enabled.
+See the `spaceline-helm-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `spaceline-helm-mode'.") (custom-autoload (quote spaceline-helm-mode) "spaceline-config" nil) (autoload (quote spaceline-helm-mode) "spaceline-config" "Customize the mode-line in helm.
+
+(fn &optional ARG)" t nil) (defvar spaceline-info-mode nil "Non-nil if Spaceline-Info mode is enabled.
+See the `spaceline-info-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `spaceline-info-mode'.") (custom-autoload (quote spaceline-info-mode) "spaceline-config" nil) (autoload (quote spaceline-info-mode) "spaceline-config" "Customize the mode-line in info.
+This minor mode requires info+.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "spaceline-config" (quote ("spaceline--")))) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "spaceline-segments" (quote ("spaceline-")))) (provide (quote spaceline-autoloads))) "rainbow-delimiters" ((rainbow-delimiters-autoloads rainbow-delimiters) (autoload (quote rainbow-delimiters-mode) "rainbow-delimiters" "Highlight nested parentheses, brackets, and braces according to their depth.
+
+(fn &optional ARG)" t nil) (autoload (quote rainbow-delimiters-mode-enable) "rainbow-delimiters" "Enable `rainbow-delimiters-mode'.
+
+(fn)" nil nil) (autoload (quote rainbow-delimiters-mode-disable) "rainbow-delimiters" "Disable `rainbow-delimiters-mode'.
+
+(fn)" nil nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "rainbow-delimiters" (quote ("rainbow-delimiters-")))) (provide (quote rainbow-delimiters-autoloads))) "f" ((f f-autoloads) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "f" (quote ("f-")))) (provide (quote f-autoloads))) "undo-tree" ((undo-tree undo-tree-autoloads) (autoload (quote undo-tree-mode) "undo-tree" "Toggle undo-tree mode.
+With no argument, this command toggles the mode.
+A positive prefix argument turns the mode on.
+A negative prefix argument turns it off.
+
+Undo-tree-mode replaces Emacs' standard undo feature with a more
+powerful yet easier to use version, that treats the undo history
+as what it is: a tree.
+
+The following keys are available in `undo-tree-mode':
+
+  \\{undo-tree-map}
+
+Within the undo-tree visualizer, the following keys are available:
+
+  \\{undo-tree-visualizer-mode-map}
+
+(fn &optional ARG)" t nil) (defvar global-undo-tree-mode nil "Non-nil if Global Undo-Tree mode is enabled.
+See the `global-undo-tree-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `global-undo-tree-mode'.") (custom-autoload (quote global-undo-tree-mode) "undo-tree" nil) (autoload (quote global-undo-tree-mode) "undo-tree" "Toggle Undo-Tree mode in all buffers.
+With prefix ARG, enable Global Undo-Tree mode if ARG is positive;
+otherwise, disable it.  If called from Lisp, enable the mode if
+ARG is omitted or nil.
+
+Undo-Tree mode is enabled in all buffers where
+`turn-on-undo-tree-mode' would do it.
+See `undo-tree-mode' for more information on Undo-Tree mode.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "undo-tree" (quote ("undo-" "turn-on-undo-tree-mode" "*undo-tree-id-counter*" "buffer-undo-tree")))) (provide (quote undo-tree-autoloads))) "path-headerline-mode" ((path-headerline-mode-autoloads path-headerline-mode) (defvar path-headerline-mode nil "Non-nil if Path-Headerline mode is enabled.
+See the `path-headerline-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `path-headerline-mode'.") (custom-autoload (quote path-headerline-mode) "path-headerline-mode" nil) (autoload (quote path-headerline-mode) "path-headerline-mode" "Displaying file path on headerline.
+
+(fn &optional ARG)" t nil) (if (fboundp (quote register-definition-prefixes)) (register-definition-prefixes "path-headerline-mode" (quote ("ph--" "path-header-line-o")))) (provide (quote path-headerline-mode-autoloads)))))
+
+#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 9 "melpa" nil "gnu-elpa-mirror" nil "el-get" nil "emacsmirror-mirror" nil "straight" nil "use-package" nil "bind-key" nil "evil" nil "goto-chg" nil "cl-lib" nil "evil-collection" nil "annalist" nil "solarized-theme" nil "dash" nil "better-jumper" nil "neotree" nil "all-the-icons" nil "ace-window" nil "avy" nil "airline-themes" nil "powerline" nil "spaceline" nil "s" nil "spaceline-config" nil "rainbow-delimiters" nil "f" nil "undo-tree" nil "path-headerline-mode" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "gnu-elpa-mirror" nil "el-get" (el-get :type git :flavor melpa :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :host github :repo "dimitri/el-get") "emacsmirror-mirror" nil "straight" nil "use-package" (use-package :type git :flavor melpa :files (:defaults (:exclude "bind-key.el" "bind-chord.el" "use-package-chords.el" "use-package-ensure-system-package.el") "use-package-pkg.el") :host github :repo "jwiegley/use-package") "bind-key" (bind-key :type git :flavor melpa :files ("bind-key.el" "bind-key-pkg.el") :host github :repo "jwiegley/use-package") "evil" (evil :type git :flavor melpa :files (:defaults "doc/build/texinfo/evil.texi" (:exclude "evil-test-helpers.el") "evil-pkg.el") :host github :repo "emacs-evil/evil") "goto-chg" (goto-chg :type git :flavor melpa :host github :repo "emacs-evil/goto-chg") "cl-lib" nil "evil-collection" (evil-collection :type git :flavor melpa :files (:defaults "modes" "evil-collection-pkg.el") :host github :repo "emacs-evil/evil-collection") "annalist" (annalist :type git :flavor melpa :host github :repo "noctuid/annalist.el") "solarized-theme" (solarized-theme :type git :flavor melpa :host github :repo "bbatsov/solarized-emacs") "dash" (dash :type git :flavor melpa :files ("dash.el" "dash.texi" "dash-pkg.el") :host github :repo "magnars/dash.el") "better-jumper" (better-jumper :type git :flavor melpa :host github :repo "gilbertw1/better-jumper") "neotree" (neotree :type git :flavor melpa :files (:defaults "icons" "neotree-pkg.el") :host github :repo "jaypei/emacs-neotree") "all-the-icons" (all-the-icons :type git :flavor melpa :files (:defaults "data" "all-the-icons-pkg.el") :host github :repo "domtronn/all-the-icons.el") "ace-window" (ace-window :type git :flavor melpa :host github :repo "abo-abo/ace-window") "avy" (avy :type git :flavor melpa :host github :repo "abo-abo/avy") "airline-themes" (airline-themes :type git :flavor melpa :host github :repo "AnthonyDiGirolamo/airline-themes") "powerline" (powerline :type git :flavor melpa :host github :repo "milkypostman/powerline") "spaceline" (spaceline :type git :flavor melpa :host github :repo "TheBB/spaceline") "s" (s :type git :flavor melpa :files ("s.el" "s-pkg.el") :host github :repo "magnars/s.el") "spaceline-config" nil "rainbow-delimiters" (rainbow-delimiters :type git :flavor melpa :host github :repo "Fanael/rainbow-delimiters") "f" (f :type git :flavor melpa :files ("f.el" "f-pkg.el") :host github :repo "rejeep/f.el") "undo-tree" nil "path-headerline-mode" (path-headerline-mode :type git :flavor melpa :host github :repo "7696122/path-headerline-mode"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 3 "emacsmirror-mirror" nil "straight" nil "cl-lib" nil "spaceline-config" nil "undo-tree" (undo-tree :type git :host github :repo "emacs-straight/undo-tree" :files ("*" (:exclude ".git"))))) el-get #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 1 "emacsmirror-mirror" nil "straight" nil "cl-lib" nil "spaceline-config" nil)) emacsmirror-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "straight" (straight :type git :host github :repo "emacsmirror/straight") "cl-lib" nil "spaceline-config" nil))))
+
+("org-elpa" "melpa" "gnu-elpa-mirror" "el-get" "emacsmirror-mirror" "straight" "emacs" "use-package" "bind-key" "evil" "goto-chg" "cl-lib" "evil-collection" "annalist" "solarized-theme" "dash" "all-the-icons" "ace-window" "avy" "path-headerline-mode" "powerline" "undo-tree" "better-jumper" "neotree" "rainbow-delimiters" "s" "f")
 
 t

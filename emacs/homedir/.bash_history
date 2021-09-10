@@ -298,3 +298,90 @@ exit
 echo kak >kak.txt
 clear
 exit
+ls -la
+cat .env
+govs
+echo $Gos
+exit
+clear
+emacs
+exit
+clear
+go version
+exit
+go version
+exit
+clear
+exit
+clear
+exi
+exit
+clear
+ls
+cd moduletutor/
+clear
+ls
+ls -la
+govs
+govs version
+govs go version
+clear
+govs
+exit
+emacs
+clera
+clear
+emacs
+clear
+emacs
+clear
+emacs
+clear
+emacs
+clear
+git
+clear
+ls -la
+git init
+clear
+emacs
+clear
+emacs
+exit
+clear
+emacs
+head -1 /proc/self/cgroup|cut -d/ -f3
+cd /proc/self/cgroup 
+cd /proc/self/ 
+clear
+cat cgroup 
+clear
+cat cgroup 
+cler
+clera
+clear
+cd /home/jk/Data/
+clear
+ls
+clear
+cd Gopd/moduletutor/
+cler
+clear
+emacs
+emacs &
+clear
+exit
+clear
+exit
+clear
+git
+clear
+exit
+emacs
+clear
+exit
+ping www.google.com
+apt search hello
+curl
+apt install ping
+exit

@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/powerline/powerline.el

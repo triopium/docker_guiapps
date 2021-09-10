@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/spaceline/spaceline-config.el

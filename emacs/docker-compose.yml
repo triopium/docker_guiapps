@@ -6,7 +6,8 @@ services:
   emacsdf:
     image: "localhost/emacs"
     container_name: emacsdf
-    hostname: emacsdf
+    hostname: "${BCWD}"
+    command: emacs
     env_file: "/${CWD}/.env"
     environment:
       DISPLAY: "${DISPLAY}"
@@ -25,3 +26,5 @@ services:
       - ${HOME}/Scripts/:${HOME}/Scripts:ro
       - ${CWD}/:${HOME}/Data/${BCWD}:rw
     working_dir: ${DCWD}
+    # ports:
+      # - "443:443"

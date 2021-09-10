@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/airline-themes/airline-dark_minimal-theme.el
