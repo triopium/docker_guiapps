@@ -16,6 +16,14 @@ if [ ! -f "$dockerfilepath" ] ; then
 		exit 1
 fi
 
+# DOCKER_OPTS="--dns 8.8.8.8 --dns 10.252.252.252" DOCKER_BUILDKIT=1 docker build  -f "$dockerfilepath" -t "$IMAGENAME" \
+							 # --progress=plain \
+							 # --build-arg APP_NAME="$IMAGEBASENAME" \
+							 # --build-arg MY_UID=$(id -u) \
+							 # --build-arg MY_GID=$(id -g) \
+							 # --build-arg MY_GROUP=$(id -g -n) \
+							 # --build-arg MY_USER=$USER .
+
 DOCKER_BUILDKIT=1 docker build  -f "$dockerfilepath" -t "$IMAGENAME" \
 							 --progress=plain \
 							 --build-arg APP_NAME="$IMAGEBASENAME" \

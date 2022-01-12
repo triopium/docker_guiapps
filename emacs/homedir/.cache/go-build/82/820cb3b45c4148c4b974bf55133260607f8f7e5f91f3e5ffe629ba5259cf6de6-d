@@ -1,8 +1,0 @@
-./doc.go
-./gc.go
-./gccgo.go
-./godex.go
-./isAlias19.go
-./print.go
-./source.go
-./writetype.go

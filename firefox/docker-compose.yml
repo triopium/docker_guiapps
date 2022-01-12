@@ -1,3 +1,5 @@
+#RESERCH https://xpra.org/
+
 version: '2.2'
 services:
   firefox-music:
@@ -23,7 +25,8 @@ services:
 
     cpus: "0.8"
     # mem_limit: 2000m
-    shm_size: 4gb
+    shm_size: 6gb
+    # runtime: nvidia
     # memswap_limit: 2000m
     # cpus: '0.60'
     # memory: 2000M

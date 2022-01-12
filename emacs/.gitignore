@@ -1,0 +1,9 @@
+# emacs, vim backup files
+\#*
+\.\#*
+*~
+homedir/.cache/
+Data/
+Govers/
+Scripts/
+

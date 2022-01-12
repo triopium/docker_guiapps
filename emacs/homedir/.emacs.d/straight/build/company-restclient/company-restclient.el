@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/company-restclient/company-restclient.el

@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/evil-leader/evil-leader.el

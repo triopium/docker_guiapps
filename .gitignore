@@ -10,9 +10,6 @@ src/afdustredna/vendor
 .netrc
 .netrc*
 
-# Go build
-src/afdustredna/main
-
 # emacs, vim backup files
 \#*
 \.\#*

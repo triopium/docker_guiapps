@@ -22,74 +22,14 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home
+	jk
+1
+d/home/jk
+	Govers
+6
 d/home/jk/Govers
 	Gos
-1
-d/home/jk/Govers/Gos
-	go1.16.5
-4
-d/home/jk/Govers/Gos/go1.16.5
-	go
-1
-d/home/jk/Govers/Gos/go1.16.5/go
-	src
-7
-d/home/jk/Govers/Gos/go1.16.5/go/src
-	..
-0
-d/home/jk/Govers/Gos/go1.16.5/go
-	src
-7
-d/home/jk/Govers/Gos/go1.16.5
-	toolsrc
-2
-d/home/jk/Govers/Gos/go1.16.5/toolsrc
-	..
-0
-d/home/jk/Govers/Gos/go1.16.5
-	toolsrc
-2
-d/home/jk/Govers/Gos/go1.16.5/toolsrc
-	pkg
-1
-d/home/jk/Govers/Gos/go1.16.5/toolsrc/pkg
-	..
-0
-d/home/jk/Govers/Gos/go1.16.5/toolsrc
-	src
-2
-d/home/jk/Govers/Gos/go1.16.5/toolsrc/src
-	github.com
-1
-d/home/jk/Govers/Gos/go1.16.5/toolsrc/src/github.com
-	BurntSushi
-1
-d/home/jk/Govers/Gos/go1.16.5/toolsrc/src/github.com/BurntSushi
-	..
-0
-d/home/jk/Govers/Gos/go1.16.5/toolsrc/src/github.com
-	BurntSushi
-1
-d/home/jk/Govers/Gos/go1.16.5/toolsrc/src
-	github.com
-1
-d/home/jk/Govers/Gos/go1.16.5/toolsrc
-	src
-2
-d/home/jk/Govers/Gos/go1.16.5
-	go
-1
-d/home/jk/Govers/Gos/go1.16.5/go
-	bin
-2
-d/home/jk/Govers/Gos/go1.16.5/go/bin
-	splitdwarf
-15
-d/home/jk/Govers/Gos/go1.16.5/go
-	bin
-2
-d/home/jk/Govers/Gos/go1.16.5
-	go
 1
 d/home/jk/Govers/Gos
 	go1.16.5
@@ -98,29 +38,325 @@ d/home/jk/Govers
 	Gos
 1
 d/home/jk
+	Govers
+6
+d/home/jk/Govers
+	Gos
+1
+d/home/jk/Govers/Gos
+	go1.17
+5
+d/home/jk/Govers/Gos/go1.17
+	..
+0
+d/home/jk/Govers/Gos
+	toolsrc
+6
+d/home/jk/Govers/Gos/toolsrc
+	..
+0
+d/home/jk/Govers/Gos
+	toolsrc
+6
+d/home/jk/Govers
+	Gos
+1
+d/home/jk
+	Data
+5
+d/home/jk/Data
+	.emacs.d
+1
+d/home/jk/Data/.emacs.d
+	..
+0
+d/home/jk/Data
+	Dop
+2
+d/home/jk/Data/Dop
+	..
+0
+d/home/jk/Data
+	Gop
+3
+d/home/jk/Data/Gop
+	..
+0
+d/home/jk/Data
 	Gopd
-1
-d/home/jk/Gopd
-	moduletutor
-1
-d/home/jk/Gopd/moduletutor
+4
+d/home/jk/Data/Gopd
 	..
 0
-d/home/jk/Gopd
-	moduletutor
-1
-d/home/jk/Gopd/moduletutor
+d/home/jk/Data
+	Scripts
+5
+d/home/jk/Data/Scripts
 	..
 0
+d/home/jk/Data
+	Scripts
+5
+d/home/jk
+	Data
+5
+d/home
+	jk
+1
+d/
+	home
+4
+d/home
+	jk
+1
+d/home/jk
+	Data
+5
+d/home/jk/Data
+	Scripts
+5
+d/home/jk
+	Govers
+6
+d/home/jk/Govers
+	Gos
+1
+d/home/jk/Govers/Gos
+	go1.17
+5
+d/home/jk/Govers/Gos/go1.17
+	..
+0
+d/home/jk/Govers/Gos
+	go1.17
+5
+d/home/jk/Govers
+	gotars
+2
+d/home/jk/Govers/gotars
+	..
+0
+d/home/jk/Govers
+	gotars
+2
+d/home/jk/Govers/gotars
+	..
+0
+d/home/jk/Govers
+	gotars
+3
+d/home/jk
+	.config
+2
+d/home/jk/.config
+	vifm
+1
+d/home/jk/.config/vifm
+	..
+0
+d/home/jk/.config
+	vifm
+1
+d/home/jk
+	.config
+2
+d/home
+	jk
+1
+d/
+	home
+4
+d/home
+	jk
+1
+d/home/jk
+	Govers
+6
+d/home/jk/Govers
+	Gos
+1
+d/home/jk/Govers/Gos
+	go1.17
+5
+d/home/jk/Govers/Gos/go1.17
+	go
+1
+d/home/jk/Govers/Gos/go1.17/go
+	bin
+2
+d/home/jk/Govers/Gos/go1.17/go/bin
+	..
+0
+d/home/jk/Govers/Gos/go1.17/go
+	bin
+2
+d/home/jk/Govers/Gos/go1.17
+	config
+2
+d/home/jk/Data/Gopd/testerdp/src/testerdp
+	..
+0
+d/home/jk/Data/Gopd/testerdp/src
+	testerdp
+1
+d/home/jk/Data/Gopd/testerdp/src/testerdp
+	mynest
+2
+d/home/jk/Data/Gopd/testerdp/src
+	testerdp
+1
+d/home/jk/Data/Gopd/testerdp
+	pkg
+1
+d/home/jk/Data/Gopd/testerdp/pkg
+	mod
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod
+	cache
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod/cache
+	..
+0
+d/home/jk/Data/Gopd/testerdp/pkg/mod
+	cache
+1
+d/home/jk/Data/Gopd/testerdp/pkg
+	mod
+1
+d/home/jk/Data/Gopd/testerdp
+	pkg
+1
+d/home/jk/Data/Gopd
+	testerdp
+3
+d/home/jk/Data/Gopd/testerdp
+	pkg
+1
+d/home/jk/Data/Gopd/testerdp/src/testerdp
+	mynest
+2
+d/home/jk/Data/Gopd/testerdp/src
+	testerdp
+1
+d/home/jk/Data/Gopd/testerdp
+	pkg
+1
+d/home/jk/Data/Gopd/testerdp/pkg
+	mod
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod
+	golang.org
+3
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org
+	x
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x
+	tools
+5
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools
+	..
+0
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x
+	tools
+5
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools
+	gopls@v0.7.3
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools/gopls@v0.7.3
+	..
+0
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools
+	gopls@v0.7.3
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x
+	tools
+5
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools
+	gopls@v0.7.3
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools/gopls@v0.7.3
+	..
+0
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x/tools
+	gopls@v0.7.3
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org/x
+	tools
+5
+d/home/jk/Data/Gopd/testerdp/pkg/mod/golang.org
+	x
+1
+d/home/jk/Data/Gopd/testerdp/pkg/mod
+	golang.org
+3
+d/home/jk/Data/Gopd/testerdp/pkg
+	mod
+1
+d/home/jk/Data/Gopd/testerdp
+	..
+0
+d/home/jk/Data/Gopd
+	uploader
+6
+d/home/jk/Data/Gopd/uploader
+	images
+3
+d/home/jk/Data/Gopd/uploader/images
+	cpsrc
+2
+d/home/jk/Data/Gopd/uploader/images/cpsrc
+	frame0000000100.jpg
+1
+d/home/jk/Data/Gopd/uploader/images
+	cpdst
+1
+d/home/jk/Data/Gopd/uploader/images/cpdst
+	..
+0
+d/home/jk/Data/Gopd/uploader/images
+	updst
+3
+d/home/jk/Data/Gopd/uploader/images/updst
+	..
+0
+d/home/jk/Data/Gopd/uploader/images
+	updst
+3
 d
 
 # Right window history (oldest to newest):
 D/home/jk/Govers
 	..
 0
+D/home/jk/Data/Gopd/uploader/images
+	cpdst
+1
+D/home/jk/Data/Gopd/uploader/images/cpdst
+	..
+0
+D/home/jk/Data/Gopd/uploader/images
+	updst
+3
+D/home/jk/Data/Gopd/uploader/images/updst
+	..
+0
+D/home/jk/Data/Gopd/uploader/images
+	cpsrc
+2
+D/home/jk/Data/Gopd/uploader/images/cpsrc
+	..
+0
+D/home/jk/Data/Gopd/uploader/images
+	cpdst
+1
+D/home/jk/Data/Gopd/uploader/images/cpdst
+	..
+0
 D
 
 # Command line history (oldest to newest):
+:sync
+:copy
 :q
 
 # Search history (oldest to newest):

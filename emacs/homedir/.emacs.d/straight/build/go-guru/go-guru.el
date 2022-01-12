@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/go-mode.el/go-guru.el

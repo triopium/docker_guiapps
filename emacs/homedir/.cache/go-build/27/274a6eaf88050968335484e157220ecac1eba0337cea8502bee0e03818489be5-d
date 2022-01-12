@@ -1,6 +1,0 @@
-./external.go
-./interp.go
-./map.go
-./ops.go
-./reflect.go
-./value.go

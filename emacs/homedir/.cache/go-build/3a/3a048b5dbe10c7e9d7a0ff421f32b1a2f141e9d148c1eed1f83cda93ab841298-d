@@ -1,6 +1,0 @@
-./doc.go
-./env.go
-./expectation.go
-./regtest.go
-./runner.go
-./wrappers.go

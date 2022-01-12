@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/ido-completing-read-plus/ido-completing-read+.el

@@ -102,6 +102,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
 if [ -f ~/.bash_aliases ]; then
+		# echo Sourcing kek: ~/.bash_aliases
     . ~/.bash_aliases
 fi
 
@@ -118,15 +119,20 @@ fi
 
 ###################
 # additional
-echo "sourcing bashrc: ~/Dop/docker_guiapps/emacs/homedir/.bashrc"
-source ~/Scripts/bash/_Funcs/Goscripts.sh
-source ~/Scripts/bash/_Funcs/GoHelperScripts.sh
-GoVersionSelectFromEnv
+# echo "sourcing bashrc: ~/Dop/docker_guiapps/emacs/homedir/.bashrc"
+# source ~/Scripts/bash/_Funcs/Goscripts.sh
+# source ~/Scripts/bash/_Funcs/GoHelperScripts.sh
+# GoVersionSelectFromEnv
+
 #GoVersionSelectScript "go1.16.5"
+echo "Sourcing scripts .bashrc"
+source ~/Scripts/bash/_Funcs/Goprepare.sh
 
-
-
-
-
+# SUPPRES WARNNING
+# emacs:158969): dbind-WARNING **: 19:16:56.701: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-NRxhbXsjWl: No such file or directory
+# https://askubuntu.com/questions/433800/accessibility-bus-warning-when-opening-files-in-eclipse-from-command-line-ubunt
+# https://bbs.archlinux.org/viewtopic.php?id=228894
+# https://pvagner.tk/2016/emacs-a11y-tip-1-introduction-and-how-to-install
+export NO_AT_BRIDGE=1
 
 

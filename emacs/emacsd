@@ -12,6 +12,8 @@ RUN apt-get -y update \
 	emacs \
 	vifm \
 	git-all \
+	wget \
+  curl \
 	vim
 
 # USER CREATE

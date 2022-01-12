@@ -1,6 +1,0 @@
-./analysis.go
-./callgraph.go
-./implements.go
-./json.go
-./peers.go
-./typeinfo.go

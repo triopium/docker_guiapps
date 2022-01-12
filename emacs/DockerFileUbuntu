@@ -15,6 +15,7 @@ ENV DEBUG_MODE=false
 RUN groupadd -g $MY_GID $MY_USER && \
 		adduser --uid $MY_UID --gid $MY_GID $MY_USER
 
+
 RUN apt-get -y update \
 	&& DEBIAN_FRONTEND=noninteractive \
 	apt-get -y  \
@@ -28,7 +29,30 @@ RUN apt-get -y update \
 	rsync \
 	tmux \
 	tshark \
-	vim
+	wget \
+	curl \
+	gitg \
+	vim \
+	vim-gui-common \
+	build-essential \
+	sudo \
+	jq
+
+# RUN apt-get -y update \
+	# && DEBIAN_FRONTEND=noninteractive \
+	# apt-get -y  \
+	# jq
+
+
+RUN useradd -m -s /bin/bash -G sudo -u 2000 maker -p "$(openssl passwd -1 hello)"
+# to run adming commands: su maker
+
+# RUN apt-get -y update \
+	# && DEBIAN_FRONTEND=noninteractive \
+	# apt-get -y  \
+	# --no-install-recommends \
+	# install \
+	# sudo
 
 FROM mybasenonrootubuntu
 # RUN adduser $MY_USER input
