@@ -301,7 +301,10 @@
 
 ;; FILE MANAGER
 ;;;; Neotree
+;;;; ALTERNATIVE: treemacs
 (use-package neotree
+	;; (defun my-project-hook () (neotree-find))
+	;; (add-hook 'find-file-hook 'my-project-hook)
 	:ensure t
 	:bind (
 				 ;; :map neotree-mode-map
@@ -313,6 +316,7 @@
 	;; (neotree-mode t)
 	(setq neo-window-fixed-size nil)
 	(setq neo-smart-open t)
+	(setq neo-autorefresh t) 
 	;; compact
 	(setq neo-theme 'arrow)
 	(setq neo-window-width 10)
@@ -336,7 +340,6 @@
       ;; (kbd "l")   'neotree-enter
     )
 	)
-
 
 ;; LISP
 (use-package rainbow-delimiters
@@ -399,6 +402,8 @@
   :config (progn
           ;; use flycheck, not flymake
 						(setq lsp-prefer-flymake nil))
+	(define-key lsp-mode-map (kbd "M-RET") 'lsp-find-references)
+	(define-key lsp-mode-map (kbd "RET") 'lsp-list-errors)
 	)
 
 (use-package flycheck
@@ -490,8 +495,10 @@
   :pin melpa)
 
 ;;; run after load
+;; (defun my-project-hook () (neotree-find))
+;; (add-hook 'find-file-hook 'my-project-hook)
 (neotree-show)
-
+;; (neotree-find)
 
 ;;;; REST
 (use-package restclient
@@ -503,3 +510,6 @@
 	 :ensure t
    :init
 	 )
+
+;; (find-file "~/Gopd/uploader/src/uploader/httpserver/router.go")
+

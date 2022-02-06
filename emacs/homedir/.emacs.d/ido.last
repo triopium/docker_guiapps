@@ -17,6 +17,12 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jk/Data/Gopd/uploader/src/uploader/auth/" (25085 25048 434410 194000) "base_test.go~" "noauth_test.go~" "baseauth.go~" "../" "noauth_test.go" "auth.go~" "base.go~" "./" "noauth.go~" "auth.go" "noauth.go")
+
+ ("/home/jk/Data/Gopd/uploader/src/uploader/upserver/" (25085 13552 83704 386000) "buffered.go" "buffered_test.go~" "server_test.go" "server.go~" "server_test.go~" "../" "auth_test.go~" "buffered.go~" "auth.go~" "./" "filestream.go" "clientserv.go~" "buffered_test.go" "filestream.go~" "server.go" "upserver.go~" "upserver_test.go~" "auth.go" "clientserv.go")
+
+ ("/home/jk/Data/Gopd/uploader/src/uploader/" (25062 43341 606023 804000) "upclient/" "helper/" "upserver/" "main_test.go" "main.go" "../" "httpserve/" "main.go~" "./" "main_test.go~" "copier/" "broadcast/" "config/" "videnc/" "logging/")
+
  ("/home/jk/Data/Gopd/uploader/src/uploader/copier/" (25023 34668 484230 69000) "writer_test.go~" "writer.go~" "fwriter_test.go~" "copier_test.go" "fwriter_test.go" "copier.go~" "fwriter.go~" "../" "unused.go~" "./" "copier.go" "copier_test.go~" "unused.go")
 
  ("/home/jk/Data/Gopd/uploader/scripts/" (25051 200 858697 549000) "buildbinary.sh" "getvideo.sh~" "flv.sh" "testffmpeg.sh~" ".1.ts" "hlsstream.sh" ".0.ts" "streamtestvideo.sh" "buildbinary.sh~" "../" ".stream" "hlsstream.sh~" "testffmpegstream.sh~" "flv.sh~" "testffmpegstream.sh" "getvideo.sh" "./" "testffmpeg.sh" "share_dir.sh~" "traw.sh~" "streamflv.sh" "stream_test.sh" "streamflv.sh~" "runmain.sh" "streamtestvideo.sh~" "share_dir.sh")
@@ -32,8 +38,6 @@
  ("/home/jk/Data/Gopd/uploader/src/uploader/httpserve/" (25020 20463 160185 280000) "handleVideo.go" "helper.go~" "router_test.go" "serve.go~" "router.go" "_restpoints.rst" "../" "handleVideo.go~" "handlers.go~" "router_test.go~" "serve.go" "routes.go~" "./" "helper.go" "restpoints.rst~" "_restpoints.rst~" "hCommon.go" "router.go~")
 
  ("/home/jk/Data/Gopd/uploader/videos/sample/" (25019 27944 324713 649000) "mov_bbb.mp4" "../" "./")
-
- ("/home/jk/Data/Gopd/uploader/src/uploader/" (25019 26430 281632 480000) "tester/" "upclient/" "helper/" "upserver/" "main_test.go" "main.go" "../" "httpserve/" "main.go~" "./" "main_test.go~" "copier/" "config/" "videnc/" "logging/")
 
  ("/home/jk/Data/Gopd/uploader/src/uploader/videnc/" (25019 24199 389513 491000) "mjpeg_test.go~" "mjpge.go~" "mp4.go" "../" "mjpeg_test.go" "./" "mp4.go~" "mjpeg.go~" "mjpeg.go")
 

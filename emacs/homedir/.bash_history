@@ -1,253 +1,4 @@
 clear
-ls
-cd Gos/
-clear
-ls
-cd go1.17/
-clear
-ls
-cd go
-clear
-exit
-go version
-cd ~/Govers/
-ls
-exit
-go version
-clear
-go env
-exit
-cd ~
-clear
-ls
-cd .config/
-clear
-ls
-ls -la
-exit
-go env
-./go evn
-./go env
-clear
-cd ~/.config/
-clea
-clear
-ls
-go 
-vf
-vifm
-clear
-go version
-./go version
-ls
-cd ~/Govers/Gos/go1.17/
-clear
-ls
-cd go/
-clear
-go version
-ls
-cd bin/
-clear
-go version
-ls
-./go version
-./go env
-clear
-tmux
-exit
-clear
-exit
-GoSelectVersionFromGoEnvFile 
-exit
-GoSelectVersionFromGoEnvFile 
-exit
-GoSelectVersionFromGoEnvFile 
-exit
-GoSelectVersionFromGoEnvFile 
-exit
-type ./.goenv
-ls
-ls -la
-exit
-GoSelectVersionFromGoEnvFile 
-clear
-exit
-GoSelectVersionFromGoEnvFile 
-exit
-eixt
-exit
-clear
-exit
-clear
-exit
-clear
-exit
-vim .goenv 
-clea
-exit
-clear
-exit
-clear
-exit
-clear
-exit
-clear
-exit
-clear
-exit
-go version
-go env
-clear
-go version
-ls
-clear
-emacs
-clear
-vim .goenv 
-GoVersionSelectFromGoEnvFile 
-go version
-cd ~
-clea
-clear
-ls
-cd Govers/
-clear
-ls
-cd Gos/
-clear
-ls
-cd -
-exit
-vim .env
-vim .goenv 
-GoVersionSelectFromGoEnvFile 
-go version
-exit
-clear
-exit
-go version
-go env
-cd ..
-ls
-cd -
-ls
-clear
-exit
-clear
-ls
-clear
-go env
-exit
-go env
-clear
-ls
-go env
-clear
-go get golang.org/dl/go1.16.4
-go install golang.org/dl/go1.10.7@latest
-ls
-cd /
-find go1.10.7
-find . -type f -iname go1.10.7
-su maker
-clear
-ls
-cd ~
-clear
-go1.10.7
-clear
-ls
-cd go
-clear
-ls
-cd bin/
-clear
-ls
-go1.10.7
-./go1.10.7
-go1.10.7 download
-./go1.10.7 download
-clear
-./go1.10.7 download
-ls
-cd ..
-ls
-cd sdk/
-clear
-ls
-cd go1.10.7/
-ls
-cd bin/
-ls
-exit
-clear
-ls
-go version
-exit
-go env
-exit
-clear
-exit
-clear
-echo $PATH
-exit
-clear
-exit
-printenv GOENVVERSION
-clear
-exit
-clear
-exit
-clear
-exit
-clear
-exit
-go env
-exit
-go env
-cd ~/Govers/Gos/go1.17/go/
-clear
-cd ..
-ls -la
-cd go/
-clear
-ls
-clear
-exit
-go version
-clear
-exit
-go env
-cd ~/Govers/Gos/go1.17/
-clear
-ls
-cd go/
-ls
-cd pkg/
-clear
-ls
-cd tool/
-ls
-cd linux_amd64/
-ls
-cle
-clear
-go env
-exit
-clear
-ls
-cd ~
-clear
-go env
-cd $(go env GOCACHE)
-go help vcs
-clear
-exit
-clear
-exit
-go version
-clear
 exirt
 exit
 emacs &
@@ -1998,3 +1749,252 @@ clear
 ce
 clear
 echo '{"main":"hello"}' | jjq
+cd ..
+ssh root@videoserver
+exit
+clear
+cd ../..
+cd ..
+cear
+clear
+bash buildbinary.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+ls
+bash buildbinary.sh
+clear
+ls
+./testmain.sh
+clear
+ls
+ls -la
+clear
+chmod u+x buildbinary.sh
+clear
+./buildbinary.sh 
+ls -la
+clear
+chmod u+x ansibledeploy.sh
+clear
+./ansibledeploy.sh 
+clear
+./ansibledeploy.sh 
+clear
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+claer
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+clear
+./testmain.sh
+./buildbinary.sh 
+clear
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+go vet ./src/uploader/
+clear
+go vet ./src/uploader/
+clear
+./buildbinary.sh 
+clear
+./buildbinary.sh 
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+clear
+./testmain.sh
+./buildbinary.sh 
+./testmain.sh
+clear
+./buildbinary.sh 
+./testmain.sh
+./buildbinary.sh 
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./testmain.sh
+clear
+./buildbinary.sh 
+ls -la
+chmod u+x testmainremote.sh
+clear
+./testmainremote.sh 
+clear
+./buildbinary.sh 
+./testmainremote.sh 
+clear
+./testmainremote.sh 
+clear
+./buildbinary.sh 
+./testmainremote.sh 
+claer
+clear
+./buildbinary.sh 
+./testmainremote.sh 
+clear
+./testmainremote.sh 
+clear
+./testmainremote.sh 
+clear
+./buildbinary.sh 
+clear
+./buildbinary.sh 
+ls -la
+chmod u+x runuploader.sh
+clear
+ls
+./runuploader.sh 
+clear
+./runuploader.sh 
+clear
+./runuploader.sh 
+clear
+./runuploader.sh 
+clear
+./runuploader.sh 
+clear
+clear
+emacs &
+bash buildbinary.sh
+clear
+cd src/uploader/helper/
+clear
+ls
+clear
+go test -run ParseIp
+go test -run ParseIP
+clear
+go test -run ParseIP
+clear
+go test -run ParseIP
+clear
+go test -run ParseIP
+clear
+tmux
+clear
+emacs &
+clear
+exit
+clear
+clea
+clear
+git diff
+clear
+git status
+clear
+emacs &
+clear
+cd src/uploader/upserver/
+clear
+ls
+go test -run 'BaseAuth'
+clear
+go test -run BaseAuth
+clear
+go test -run BaseAuth
+clear
+cd ../../..
+emacs &
+clear
+ga val
+go val
+clear
+go vet ./src/uploader/...
+clear
+go vet ./src/uploader/...
+go get git.eltoversum/kacabaj/uploader/src/uploader/httpserve
+git log
+clear
+git branch -a
+clear
+emacs &
+emacs
+emacs &
+clear
+ps aux
+clear
+emacs &
+exit
+clear
+emacs &
+tmux
+emacs &
+clear
+emacs &
+clear
+emacs &
+exit
+emacs &
+emacs --debug-init
+emacs &
+exit
+emacs &
+clear
+emacs &
+emacs --debug-init
+emacs &
+jclear
+emacs &
+clear
+emacs &
+kclear
+clear
+kclear
+emacs &
+exit

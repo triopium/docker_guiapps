@@ -8,6 +8,10 @@
 ;; (setq visible-bell t)             ;; Get rid of the beeps
 
 (setq inhibit-splash-screen t)
+;; (switch-to-buffer-other-window "*scratch*")
+(add-hook 'emacs-startup-hook
+          (lambda () (delete-other-windows)) t)
+;; (neotree-find)
 
 ;; highlight current line for all buffers
 (global-hl-line-mode 1)
@@ -78,4 +82,7 @@
 ;; (add-to-list 'default-frame-alist '(height . 40))
 ;; (add-to-list 'default-frame-alist '(font . "Monospace-10"))
 
+;; (setq ns-pop-up-frames nil)
+
 (load "~/.emacs.d/straightcfg.el")
+
