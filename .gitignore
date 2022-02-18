@@ -16,3 +16,4 @@ src/afdustredna/vendor
 *~
 emacs/emacs.d/straight_data
 */data
+emacs/homedir/.bash_history

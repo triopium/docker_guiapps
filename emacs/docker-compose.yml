@@ -27,5 +27,5 @@ services:
       - ${CWD}/:${HOME}/Data/${BCWD}:rw
       - ${HOME}${USERPROFILE}/.netrc:/${HOME}.netrc
     working_dir: ${DCWD}
-    # ports:
-      # - "443:443"
+    ports:
+      - "10001:10001"

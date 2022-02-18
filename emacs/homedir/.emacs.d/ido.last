@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jk/Data/Gopd/uploader/frontend/" . "images/")
  ("/home/jk/Data/Gopd/uploader/images/" . "source/")
 )
 
@@ -17,6 +18,20 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jk/Data/Gopd/uploader/" (25098 22940 692893 603000) "runstreamer.sh~" "buildbinary.sh" "testmainremote.sh~" "runuploader.sh~" "builddockerimage.sh~" "scripts/" ".dockerignore" "builddockerimagegitlab.sh" "dockerfile~" "frontend/" ".gitignore" "testmainremote.sh" "runbin.sh" ".git/" "videoserver.ssh" "builddockerimagegitlab.sh~" "docker-compose.yml" "src/" "docker-compose.defaults.yml" "README.md" "go.mod" "testmain.sh~" "testmainlocaly.sh" "go.sum" "runcopier.sh~" "buildbinary.sh~" "docker-compose.yml~" "../" "builddockerimage.sh" "ansibledeploy.sh" "ansibledeploy.sh~" "runstreamer.sh" "runmain.sh~" "images/" "./" "videos/" ".dockerignore~" ".netrc" "uploader.bin" "runcopier.sh" ".goenv" "restpoints.rst" "mount/" "dockerfile" "restpoints.rst~" "pkg/" "runuploader.sh" "Dockerfile~")
+
+ ("/home/jk/Data/Gopd/uploader/frontend/pages/" (25099 36257 919250 174000) "LatestImageReload/" "reload_image/" "../" "./")
+
+ ("/home/jk/Data/Gopd/uploader/frontend/" (25098 26615 583087 133000) "staticfilewithout.j~" "dynf.html" "staticfile.html" "css/" "statifilewithjs.html~" "js/" "hlsserver.html" "servecontent.html" "staticfilejs.html" "servefile.html~" "woserver.html" "../" "woserver.html~" "dynf.html~" "staticfile.html~" "hlsserver.html~" "./" "dynamicfile.html~" "pages/" "mypage.html~" "servecontent.html~" "servefile.html")
+
+ ("/home/jk/Data/Gopd/uploader/src/uploader/helper/" (25098 21481 929404 842000) "writer_test.go~" "writer.go~" "bytencode.go~" "helper.go~" "file_test.go~" "random_test.go~" "cfg_test.go" "cfg.go" "file.go" "config.go~" "byteenc.go~" "helper_test.go~" "http.go" "cfg.go~" "random.go" "writer.go" "../" "workerfifo.go~" "suggar.go" "_cfg_test.go~" "logger.go~" "debug_test.go~" "workerfifo_test.go~" "file.go~" "debug_test.go" "workerfifo_test.go" "config_test.go~" "writer_test.go" "./" "http.go~" "debug.go" "file_test.go" "byteenc.go" "suggar.go~" "worker_test.go~" "random.go~" "workerfifo.go" "_cfg.go~" "random_test.go" "error.go~" "byteenc_test.go~" "check.go" "check.go~" "worker.go~" "byteenc_test.go" "cfg_test.go~")
+
+ ("/home/jk/Data/Gopd/uploader/frontend/js/" (25098 24661 886896 981000) "vidimage.js" "../" "./")
+
+ ("/home/jk/Data/Gopd/uploader/src/uploader/httpserve/" (25089 11230 134266 0) "ws.go" "fileserver.go~" "helper.go~" "fileserver.go" "hVideo.go~" "ws.go~" "hVideo.go" "router_test.go" "serve.go~" "router.go" "_restpoints.rst" "../" "handleVideo.go~" "handlers.go~" "router_test.go~" "serve.go" "routes.go~" "./" "restpoints.rst~" "_restpoints.rst~" "hCommon.go" "router.go~")
+
+ ("/home/jk/Data/Gopd/uploader/src/uploader/config/" (25088 59948 955860 193000) "test_log.go~" "logging.go~" "cfg.go" "log.go" "cfg.go~" "../" "./" "cfgfuncs.go" "log_test.go" "cfgfuncs.go~" "cfg_test.go~")
+
  ("/home/jk/Data/Gopd/uploader/src/uploader/auth/" (25085 25048 434410 194000) "base_test.go~" "noauth_test.go~" "baseauth.go~" "../" "noauth_test.go" "auth.go~" "base.go~" "./" "noauth.go~" "auth.go" "noauth.go")
 
  ("/home/jk/Data/Gopd/uploader/src/uploader/upserver/" (25085 13552 83704 386000) "buffered.go" "buffered_test.go~" "server_test.go" "server.go~" "server_test.go~" "../" "auth_test.go~" "buffered.go~" "auth.go~" "./" "filestream.go" "clientserv.go~" "buffered_test.go" "filestream.go~" "server.go" "upserver.go~" "upserver_test.go~" "auth.go" "clientserv.go")
@@ -27,23 +42,15 @@
 
  ("/home/jk/Data/Gopd/uploader/scripts/" (25051 200 858697 549000) "buildbinary.sh" "getvideo.sh~" "flv.sh" "testffmpeg.sh~" ".1.ts" "hlsstream.sh" ".0.ts" "streamtestvideo.sh" "buildbinary.sh~" "../" ".stream" "hlsstream.sh~" "testffmpegstream.sh~" "flv.sh~" "testffmpegstream.sh" "getvideo.sh" "./" "testffmpeg.sh" "share_dir.sh~" "traw.sh~" "streamflv.sh" "stream_test.sh" "streamflv.sh~" "runmain.sh" "streamtestvideo.sh~" "share_dir.sh")
 
- ("/home/jk/Data/Gopd/uploader/" (25037 39018 158495 316000) "scripts/" "frontend/" ".gitignore" ".git/" "src/" "README.md" "go.mod" "go.sum" "../" "images/" "./" "videos/" ".goenv" "pkg/")
-
  ("/home/jk/Data/Gopd/uploader/frontend/reloader/" (25044 53355 996521 482000) "reloader.html~" "css/" "js/" "../" "reloader.js~" "reloader.html" "./" "reloader.htm~")
 
- ("/home/jk/Data/Gopd/uploader/frontend/" (25024 40549 200087 266000) "staticfilewithout.j~" "dynf.html" "staticfile.html" "statifilewithjs.html~" "hlsserver.html" "servecontent.html" "staticfilejs.html" "servefile.html~" "woserver.html" "../" "woserver.html~" "dynf.html~" "staticfile.html~" "hlsserver.html~" "reloader/" "./" "dynamicfile.html~" "mypage.html~" "servecontent.html~" "servefile.html")
-
  ("/home/jk/Data/Gopd/uploader/videos/encout/" (25023 40490 461190 270000) "test2.mp4" "../" "vlc" "test.avi" "./")
-
- ("/home/jk/Data/Gopd/uploader/src/uploader/httpserve/" (25020 20463 160185 280000) "handleVideo.go" "helper.go~" "router_test.go" "serve.go~" "router.go" "_restpoints.rst" "../" "handleVideo.go~" "handlers.go~" "router_test.go~" "serve.go" "routes.go~" "./" "helper.go" "restpoints.rst~" "_restpoints.rst~" "hCommon.go" "router.go~")
 
  ("/home/jk/Data/Gopd/uploader/videos/sample/" (25019 27944 324713 649000) "mov_bbb.mp4" "../" "./")
 
  ("/home/jk/Data/Gopd/uploader/src/uploader/videnc/" (25019 24199 389513 491000) "mjpeg_test.go~" "mjpge.go~" "mp4.go" "../" "mjpeg_test.go" "./" "mp4.go~" "mjpeg.go~" "mjpeg.go")
 
  ("/home/jk/Data/Gopd/uploader/videos/" (25019 8743 465709 906000) "../" "test.mp4" "./")
-
- ("/home/jk/Data/Gopd/uploader/src/uploader/helper/" (25018 16469 858389 534000) "writer_test.go~" "writer.go~" "helper.go~" "random_test.go~" "helper_test.go~" "random.go" "writer.go" "../" "helper_test.go" "writer_test.go" "./" "random.go~" "helper.go" "random_test.go")
 
  ("/home/jk/Data/Gopd/uploader/src/uploader/tester/" (25016 49125 794801 72000) "randombytes.go~" "rbytes_test.go~" "../" "rbytes_test.go" "./" "rbytes.go")
 

@@ -1,0 +1,1 @@
+/home/jk/.emacs.d/straight/repos/go-fill-struct/go-fill-struct.el

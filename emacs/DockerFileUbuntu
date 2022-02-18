@@ -36,7 +36,9 @@ RUN apt-get -y update \
 	vim-gui-common \
 	build-essential \
 	sudo \
-	jq
+	jq \
+	feh \
+	lsof
 
 # RUN apt-get -y update \
 	# && DEBIAN_FRONTEND=noninteractive \

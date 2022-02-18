@@ -22,12 +22,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home
-	jk
-1
-d/home/jk
-	Govers
-6
 d/home/jk/Govers
 	Gos
 1
@@ -322,6 +316,12 @@ d/home/jk/Data/Gopd/uploader/images/updst
 d/home/jk/Data/Gopd/uploader/images
 	updst
 3
+d/home/jk/Data/Gopd/uploader
+	images
+3
+d/home/jk/Data/Gopd/uploader/images
+	latest.jpg
+4
 d
 
 # Right window history (oldest to newest):

@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1641762019,,"q"
+|2,0,1644353964,,"q"
 :wa
 |2,0,1638877355,,"wa"
 :q!
@@ -52,38 +52,58 @@
 |3,0,36,0,1,0,1636198780,"#"
 
 # File marks:
-'0  1  0  ~/.bashrc
-|4,48,1,0,1641762019,"~/.bashrc"
-'1  1  0  ~/.bash_aliases
-|4,49,1,0,1638877363,"~/.bash_aliases"
-'2  1  0  ~/Data/Gopd/uploader/go.mod
-|4,50,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
-'3  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,51,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
-'4  1  4  ~/Data/Gopd/uploader/.goenv
-|4,52,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
-'5  1  0  ~/Data/Gopd/uploader/.goenv
-|4,53,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
-'6  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,54,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
-'7  1  20  ~/Data/Gopd/testerdp/.goenv
-|4,55,1,20,1636198874,"~/Data/Gopd/testerdp/.goenv"
-'8  1  0  ~/Data/Gopd/testerdp/.env
-|4,56,1,0,1636198865,"~/Data/Gopd/testerdp/.env"
-'9  2  0  ~/Data/Gopd/testerdp/.goenv
-|4,57,2,0,1636198783,"~/Data/Gopd/testerdp/.goenv"
+'0  1  0  ~/Data/Gopd/uploader/images/latest.jpg
+|4,48,1,0,1644353964,"~/Data/Gopd/uploader/images/latest.jpg"
+'1  1  0  ~/.bashrc
+|4,49,1,0,1641762019,"~/.bashrc"
+'2  1  0  ~/.bash_aliases
+|4,50,1,0,1638877363,"~/.bash_aliases"
+'3  1  0  ~/Data/Gopd/uploader/go.mod
+|4,51,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
+'4  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,52,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+'5  1  4  ~/Data/Gopd/uploader/.goenv
+|4,53,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+'6  1  0  ~/Data/Gopd/uploader/.goenv
+|4,54,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
+'7  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
+|4,55,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
+'8  1  20  ~/Data/Gopd/testerdp/.goenv
+|4,56,1,20,1636198874,"~/Data/Gopd/testerdp/.goenv"
+'9  1  0  ~/Data/Gopd/testerdp/.env
+|4,57,1,0,1636198865,"~/Data/Gopd/testerdp/.env"
 
 # Jumplist (newest first):
+-'  1  0  ~/Data/Gopd/uploader/images/latest.jpg
+|4,39,1,0,1644353964,"~/Data/Gopd/uploader/images/latest.jpg"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1641762019,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1641762019,"~/.bashrc"
 -'  138  0  ~/.bashrc
 |4,39,138,0,1641762018,"~/.bashrc"
+-'  138  0  ~/.bashrc
+|4,39,138,0,1641762018,"~/.bashrc"
+-'  124  21  ~/.bashrc
+|4,39,124,21,1641762015,"~/.bashrc"
 -'  124  21  ~/.bashrc
 |4,39,124,21,1641762015,"~/.bashrc"
 -'  1  0  ~/.bash_aliases
 |4,39,1,0,1638877363,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
 |4,39,1,0,1638877363,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1638877363,"~/.bash_aliases"
+-'  1  0  ~/.bash_aliases
+|4,39,1,0,1638877363,"~/.bash_aliases"
+-'  1  0  ~/Data/Gopd/uploader/go.mod
+|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
+-'  1  0  ~/Data/Gopd/uploader/go.mod
+|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
+-'  1  0  ~/Data/Gopd/uploader/go.mod
+|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
+-'  1  0  ~/Data/Gopd/uploader/go.mod
+|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
 -'  1  0  ~/Data/Gopd/uploader/go.mod
 |4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
 -'  1  0  ~/Data/Gopd/uploader/go.mod
@@ -124,6 +144,38 @@
 |4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
 -'  1  0  ~/Data/Gopd/uploader/.gitignore
 |4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
+-'  1  0  ~/Data/Gopd/uploader/.gitignore
+|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
 -'  1  4  ~/Data/Gopd/uploader/.goenv
 |4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
 -'  1  4  ~/Data/Gopd/uploader/.goenv
@@ -188,94 +240,46 @@
 |4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
 -'  1  4  ~/Data/Gopd/uploader/.goenv
 |4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/uploader/.goenv
-|4,39,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
--'  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,39,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  1  4  ~/Data/Gopd/uploader/.goenv
+|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
 
 # History of marks within files (newest to oldest):
+
+> ~/Data/Gopd/uploader/images/latest.jpg
+	*	1644353961	0
+	"	1	0
 
 > ~/.bashrc
 	*	1641762018	0

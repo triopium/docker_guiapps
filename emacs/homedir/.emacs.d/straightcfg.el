@@ -63,7 +63,8 @@
 		;; Also in visual mode
 		(define-key evil-visual-state-map "j" 'evil-next-visual-line)
 		(define-key evil-visual-state-map "k" 'evil-previous-visual-line)
-
+		;; (evil-define-key 'normal lsp-mode-map (kbd "RET") lsp-list-errors)
+		;; (define-key lsp-mode-map (kbd "RET") 'lsp-list-errors)
     )
 
 ;; EVIL MOTION
@@ -316,15 +317,18 @@
 	;; (neotree-mode t)
 	(setq neo-window-fixed-size nil)
 	(setq neo-smart-open t)
-	(setq neo-autorefresh t) 
+	;; (setq neo-autorefresh t) ;; neotrre dir follow buffer file
 	;; compact
 	(setq neo-theme 'arrow)
 	(setq neo-window-width 10)
+
 	;; (setq neo-theme 'ascii)
 	;; (setq neo-theme 'nerd)
 	;; (setq neo-theme 'icons)
 	(global-set-key [f8] 'neotree-toggle)
 	:config
+	;; (neotree-dir "~/devel")
+	;; (switch-to-buffer-other-window "*scratch*")
 	(evil-set-initial-state 'neotree-mode 'normal)
 	(evil-define-key 'normal neotree-mode-map
 	  (kbd "r") 'neotree-refresh
@@ -403,12 +407,26 @@
           ;; use flycheck, not flymake
 						(setq lsp-prefer-flymake nil))
 	(define-key lsp-mode-map (kbd "M-RET") 'lsp-find-references)
-	(define-key lsp-mode-map (kbd "RET") 'lsp-list-errors)
+	(define-key lsp-mode-map (kbd "M-n R") 'lsp-rename)
 	)
 
 (use-package flycheck
   :ensure t
-  :init (global-flycheck-mode))
+  :init (global-flycheck-mode)
+	:config
+	(define-key flycheck-mode-map (kbd "M-n b") 'flycheck-buffer)
+	(define-key flycheck-mode-map (kbd "M-n c") 'flycheck-clear)
+	(define-key flycheck-mode-map (kbd "M-n e") 'flycheck-list-errors)
+	;; (define-key flycheck-mode-map (kbd "S-M-n") 'flycheck-buffer)
+	;; :bind
+	;; flycheck-display-error-at-point
+	;; flycheck-explain-error-at-point
+	;; flycheck-list-errors
+	;; flycheck-first-error
+	;; flycheck-next-error
+	;; flycheck-previous-error
+	)
+
   ;; reformat Go code and add missing (or remove old) imports
   ;; :hook ((before-save . my-lsp-format-buffer)
          ;; (before-save . my-lsp-organize-imports))
@@ -474,6 +492,11 @@
 	 ;; ("<return>" . godef-jump)
 	 )
 
+(use-package go-fill-struct
+	 :ensure t
+	 :init
+	 )
+
 ;; (use-package go-mode
 	 ;; :ensure t
    ;; :demand t)
@@ -510,6 +533,9 @@
 	 :ensure t
    :init
 	 )
+
+(use-package docker-compose-mode)
+(use-package dockerfile-mode)
 
 ;; (find-file "~/Gopd/uploader/src/uploader/httpserver/router.go")
 
