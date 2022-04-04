@@ -22,75 +22,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/jk/Govers
-	Gos
-1
-d/home/jk/Govers/Gos
-	go1.16.5
-4
-d/home/jk/Govers
-	Gos
-1
-d/home/jk
-	Govers
-6
-d/home/jk/Govers
-	Gos
-1
-d/home/jk/Govers/Gos
-	go1.17
-5
-d/home/jk/Govers/Gos/go1.17
-	..
-0
-d/home/jk/Govers/Gos
-	toolsrc
-6
-d/home/jk/Govers/Gos/toolsrc
-	..
-0
-d/home/jk/Govers/Gos
-	toolsrc
-6
-d/home/jk/Govers
-	Gos
-1
-d/home/jk
-	Data
-5
-d/home/jk/Data
-	.emacs.d
-1
-d/home/jk/Data/.emacs.d
-	..
-0
-d/home/jk/Data
-	Dop
-2
-d/home/jk/Data/Dop
-	..
-0
-d/home/jk/Data
-	Gop
-3
-d/home/jk/Data/Gop
-	..
-0
-d/home/jk/Data
-	Gopd
-4
-d/home/jk/Data/Gopd
-	..
-0
-d/home/jk/Data
-	Scripts
-5
-d/home/jk/Data/Scripts
-	..
-0
-d/home/jk/Data
-	Scripts
-5
 d/home/jk
 	Data
 5
@@ -320,8 +251,77 @@ d/home/jk/Data/Gopd/uploader
 	images
 3
 d/home/jk/Data/Gopd/uploader/images
-	latest.jpg
-4
+	..
+0
+d/home/jk/Data/Gopd/uploader
+	.git
+1
+d/home/jk/Data/Gopd/uploader/.git
+	..
+0
+d/home/jk/Data/Gopd/uploader
+	..
+0
+d/home/jk/Data/Gopd
+	videoserver
+7
+d/home/jk/Data/Gopd/videoserver
+	src
+6
+d/home/jk/Data/Gopd/videoserver/src
+	videoserver
+1
+d/home/jk/Data/Gopd/videoserver/src/videoserver
+	config
+1
+d/home/jk/Data/Gopd/videoserver/src/videoserver/config
+	..
+0
+d/home/jk/Data/Gopd/videoserver/src/videoserver
+	config
+1
+d/home/jk/Data/Gopd/videoserver/src
+	videoserver
+1
+d/home/jk/Data/Gopd/videoserver
+	..
+0
+d/home/jk/Data/Gopd
+	videoserver
+8
+d/home/jk/Data/Gopd/videoserver
+	..
+0
+d/home/jk/Data/Gopd
+	videoserver
+8
+d/home/jk/Data
+	Gopdt
+5
+d/home/jk/Data/Gopdt
+	zaplogcont
+1
+d/home/jk/Data/Gopdt/zaplogcont
+	..
+0
+d/home/jk/Data/Gopdt
+	zaplogcont
+1
+d/home/jk/Data
+	Gopdt
+5
+d/home/jk
+	Data
+5
+d/home
+	jk
+1
+d/
+	bin
+0
+d/bin
+	..
+0
 d
 
 # Right window history (oldest to newest):
@@ -352,6 +352,9 @@ D/home/jk/Data/Gopd/uploader/images
 D/home/jk/Data/Gopd/uploader/images/cpdst
 	..
 0
+D/home/jk/Data/Gopd/uploader
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -360,6 +363,7 @@ D
 :q
 
 # Search history (oldest to newest):
+/pytho
 
 # Prompt history (oldest to newest):
 

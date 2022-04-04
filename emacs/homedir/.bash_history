@@ -1,623 +1,3 @@
-clear
-go test -run RemoveDir
-clear
-go test -run RemoveDir
-clear
-go test -run RemoveDir
-go test -run CopyDirFiles
-clear
-go test -run CopyDirFiles
-clear
-clear)
-clear
-go test -run CopyDirFiles
-clear
-go test -run CopyDirFiles
-clear
-go test -run CopyDirFiles
-clear
-go test -run CopyDirFiles
-clear
-cd ..
-cd upclient/
-clear
-go test -run NewUp
-clear
-cd ..
-cd config/
-lcear
-clear
-ls
-go test -run NewUp
-go test -run TestLoad
-clear
-cd -
-cd upclient/
-clear
-ls
-go test -run NewUp
-clear
-go test -run NewUp
-clear
-go test -run NewUp
-claer
-clear
-go test -run NewUp
-clear
-go test -run NewUp
-clear
-ls
-go test -run NewUp
-clear
-go test -run NewUp
-clear
-go test -run NewUp
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-claer
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Wachter
-clear
-go test -run Wachter
-clear
-go test -run Wachter
-clear
-go test -run Wachter
-clear
-go test -run Wachter
-clear
-cd ..
-ls
-cd images/
-ls
-cd dst/
-ls
-cd ..
-cd src/
-clear
-ls
-clear
-cd ..
-ls
-clear
-ls
-cd src/uploader/
-claer
-clear
-ls
-cd upclient/
-clear
-s
-clear
-ls
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-go test -run Watcher
-clear
-ls
-clear
-cd ..
-cd copier/
-clear
-go test -run ReadDir
-clear
-go test -run CopyDirFiles
-clear
-go test -run CopyDirFiles
-clear
-go test -run CopyDirFiles
-clear
-tmxu
-go test -run ReadDirFiles
-clear
-cd ..
-clear
-cd upclient/
-clear
-go test -run Watcher
-clear
-cd ..
-cd helper/
-clear
-go test TimeCon
-ls
-go test -run TimeCon
-clear
-go test -run TimeCon
-clear
-go test -run TimeCon
-claer
-clear
-go test -run TimeCon
-clear
-go test -run TimeCon
-clear
-go test -run TimeCon
-clear
-go test -run TimeCon
-claer
-exit
-clear
-ls
-clear
-emacs &
-clear
-echo $USERPROFILE
-envprint USERPROFILE
-printenv USERPROFILE
-clear
-gopls --help
-clear
-a
-clear
-cd src/uploader/upserver/
-clear
-go test -run Buffered
-claer
-clear
-go test -run Buffered
-clear
-go test -run Buffered
-clear
-cd ..
-cd copier/
-clear
-ls
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-claer
-clear
-claer
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-aclear
-clear
-aclear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytees
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-claer
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-claer
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytesclear
-celar
-clear
-go test -run RandomBytesclear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-go test -run RandomBytes
-clear
-cd+3
-cd 3
-cd 2
-cd +2
-cd3
-cd -2
-man cd
-clear
-lobals
-claer
-clear
-go test -run BytesStream
-clear
-go test -run BytesStream
-clear
-go test -run BytesStream
-clear
-go test -run BytesStream
-clear
-clea
-clear~A
-go test -run BytesStream
-clear
-echo $USERPROFILE
-emacs &
-clear
-emacs &
-go vet ./src/uploader/
-go vet ./src/uploader/..
-go vet ./src/uploader/...
-cd src/uploader/
-clear
-go vet
-clear
-cd helper/
-clear
-go test -run IntLoop
-clear
-go test -run IntLoop
-clear
-go test -run IntLoop
-clear
-go test -run IntLoop
-clear
-cd ..
-cd copier/
-clear
-claer
-clear
-go test -run RandomBytesStream
-clear
-go test -run RandomBytesStream
-go test -run RandomBytesStreamRea
-clear
-go test -run RandomBytesStreamRea
-clear
-go test -run RandomBytesStreamRea
-clear
-go test -run RandomBytesStreamRea
-cl
-clear
-go test -run RandomBytesStreamRea
-clear
-go test -run RandomBytesStreamRea
-cd -
-cd httpserve/
-clear
-ls
-go test -run Http
-clear
-go test -run Http
-clear
-go test -run Http
-lcea
-clear
-lcea
-go test -run Http
-clear
-exit
-clear
-ls
-./uploader.bin 
-clear
-git describe tags
-clear
-ls
-cd src/uploader/
-clear
-ls
-cd copier/
-clear
-go test -run ReadDirFiles
-clear
-go test -run TestCopyDirFiles
-clear
-ps aux
-pkill emacs
-emacs &
-cd ..
-cd uploader/
-clear
-emacsgo
-emacs &
-cd -
-cd scripts/
-clear
-ls
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-c.ear
-cear
-clear
-cear
-./renameframes.sh 
-.ear
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-printf "%09d" 10
-clear
-printf "%09d" 10
-./renameframes.sh 
-clear
-./renameframes.sh 
-c.ear
-clear
-c.ear
-./renameframes.sh 
-c.ear
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-c.ear
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-c.ear
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-c.ear
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-c.ear
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-./renameframes.sh 
-clear
-git diff
-clear
-cd ..
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-ps aux
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-c
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-ps aux
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-clear
-./runmain.sh 
-./runmain.sh | jqq
-jqq
-clear
-edbals
-alias
-vim ~/.bashrc
-clear
-./runmain.sh | jjq
-./runmain.sh | jq '.'
-./runmain.sh
-clear
-./runmain.sh
-./runmain.sh | jjq
-clear
-exit
-clear
-ls
-cd scripts/
-clear
-ls
-bash buildbinary.sh
-clear
-bash buildbinary.sh
-clear
-cd ..
-clear
-ls
-bash buildbinary.sh
-ls
-bash buildbinary.sh
-clear
-bash buildbinary.sh
-clear
-bash buildbinary.sh
-bash runmain.sh
-bash buildbinary.sh
-bash runmain.sh
-clear
-bash buildbinary.sh
-clear
-bash runmain.sh
-clear
-bash buildbinary.sh
-bash runmain.sh
-clear
-bash runmain.sh
 bash buildbinary.sh
 bash runmain.sh
 clear
@@ -1997,4 +1377,624 @@ clear
 go test -run FileGetMetaData
 clear
 tmux
+exit
+emacsgo
+emacs &
+clear
+emacs &
+emaccs &
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+exit
+clear
+emacs &
+clear
+git remote -v
+git diff
+clear
+git diff
+clear
+git config
+clear
+git diff
+git config
+clear
+git -t
+git difftool
+clear
+git diff
+clear
+git diff
+clear
+git --no-pager diff
+man less
+clear
+git diff
+clear
+tpuc
+tput 
+tput clear
+exit
+clear
+ls
+git diff
+clear
+git config --list
+les
+less
+clear
+exit
+clear
+ls
+clear
+exit
+cat emacs_docker.override.yml
+type emacsdfrun
+exit
+clear
+emacsgo
+clear
+ls
+git diff
+clear
+git remote -v
+go mod init git.eltoversum.cz/vyvoj-sw-a-hw/videoserver
+go mod tidy
+clear
+emacs &
+clear
+emacs &
+clear
+cd src/videoserver/
+clear
+cd logging/
+clear
+go test -run ZapTimeset
+cd ..
+go mod tidy
+clear
+cd src/videoserver/
+clear
+cd logging/
+clear
+go test -run ZapTimeset
+clear
+go test -run ZapTimeset
+clear
+cd -
+cd ..
+clear
+go mod tidy
+clear
+cd src/videoserver/
+clear
+find . -type f -exec grep -nH nats {} \;
+find . -type f -exec grep -nH Nats {} \;
+clear
+cd logging/
+clear
+go test -run ZapTime
+clear
+cd ..
+go mod tiyd
+go mod tidy
+clear
+go mod init
+go mod init git.eltoversum.cz/vyvoj-sw-a-hw/videoserver
+go mod tidy
+clear
+cd src/videoserver/logging/
+go test -run ZapTime
+clear
+go mod tidy
+clear
+git logging
+clear
+go mod tidy
+go mod tidy -v
+git config -v
+git config --list
+clear
+git config --list
+clear
+go get "git.eltoversum.cz/StrategickyRozvoj/citidea/auxlib.git"
+go get -v "git.eltoversum.cz/StrategickyRozvoj/citidea/auxlib.git"
+clear
+exit
+printenv | terminal
+printenv | grep TERM
+clear
+go mod tidy
+clear
+go mod tidy
+claer
+clear
+exit
+go mod tidy
+ls
+lii
+exit
+clear
+ls
+mkdir tmp
+cd tmp
+clear
+git config -l
+clear
+git clone https://git.eltoversum.cz/StrategickyRozvoj/citidea/auxlib.git
+clear
+cd ..
+go mod tidy -v
+clear
+go mod tidy
+clear
+exit
+emacs &
+clear
+ls
+clear
+ls -la
+vim go.sum 
+clea
+clear
+ls
+cd src/
+ls
+cd uploader/
+clear
+ls
+clear
+cd ..
+ls
+clear
+ls -a
+ls -la
+ls -l
+clea
+clear
+ls -t
+ls --group-directories-first
+vf
+clear
+git
+clear
+git config -list
+git config --list
+clear
+git fetch
+clear
+go mod tidy
+git config -l
+clear
+vf
+vifm
+clear
+git config
+git config -l
+clear
+git config --list
+clear
+exit
+go mod init
+go mod tidy
+clear
+echo $GOPRIVATE
+clear
+cat .netrc
+ls -la
+clea
+clear
+ls -la .netrc
+cat .netrc
+clear
+go mod tidy
+clear~
+go mod tidy
+clear
+go mod tidy
+claer
+clear
+exit
+clear
+go mod tidy
+cat .netrc
+clear
+vim .netrc
+go mod tidy
+clear
+go mod tidy
+clear
+cd tmp/
+clear
+ls
+go help environment
+clear
+cd ..
+clear
+exit
+go mod tidy
+printenv
+export GIT_TERMINAL_PROMPT=0
+go mod tidy
+clear
+emacs &
+exit
+go mod tidy -v
+go mod init
+go mod init git.eltoversum.cz/vyvoj-sw-a-hw/videoserver
+go mod tidy
+clear
+go mod tidy -v
+exit
+go mod tidy -v
+go get terminal prompts disabled
+go get -v git.eltoversum.cz/StrategickyRozvoj/citidea/auxlib
+clear
+echo $GOPATH
+clear
+emacs &
+cd src/videoserver/
+clear
+cd logging/
+clear
+go test -run logging
+go test -run Zap
+clear
+go mod tidy -v
+export GOPRIVATE=git.eltoversum.cz
+cd ..
+go mod tidy -v
+clear
+go mod init -v
+clear
+go mod init -v
+go mod tidy -v
+clear
+go mod tidy -v
+clear
+vifm
+clear
+emacs &
+clear
+go mod init -v
+go mod init
+clear
+go mod init git.eltoversum.cz/vyvoj-sw-a-hw/videoserver
+go mod tidy -v
+clear
+go mod init git.eltoversum.cz/vyvoj-sw-a-hw/videoserver
+go mod tidy -v
+clear
+go mod tidy -v
+clear
+go mod tidy -v
+clear
+cd src/videoserver/
+clear
+cd config/
+clear
+go test -run Load
+go test -run Load | jjq
+clear
+cd ...
+cd .
+cd ..
+c d..
+cd ..
+go mod tidy
+clear
+go vet ./src/videoserver/...
+clear
+go mod tidy
+lera
+clear
+exit
+go mod tidy
+go mod tidy -v
+ping https://git.eltoversum.cz/StrategickyRozvoj/citidea/auxlib.git
+mkdir tmp
+cd tmp/
+clear
+curl https://git.eltoversum.cz/StrategickyRozvoj/citidea/auxlib.git
+clear
+cd ..
+clear
+go mod tidy -v
+clear
+exit
+clear
+exit
+clear
+emacs &
+clear
+go mod tidy -v
+go mod -h
+go help mod
+go mod init
+go mod init localhost/zaplogcont
+go mod tidy
+clear
+go run src/zaplogcont/main.go
+clear
+go mod tidy
+go mod tidy -v
+tmux
+exit
+printenv
+goenv
+go env
+clear
+printenv | grep terminal
+printenv | grep TERM
+clear
+exit
+clear
+go env -h
+go help env
+clear
+exit
+clear
+emacs &
+clear
+clear
+emacs &
+clear
+go mod init
+clear
+ls
+ls -la
+git config credential.https://git.eltoversum.cz/
+git config credential.https://git.eltoversum.cz/ kacabaj
+git config credential.https://git.eltoversum.cz.username kacabaj
+clear
+ls
+ls -la
+cd .git
+clear
+ls
+vim config 
+clear
+ls
+clear
+ls
+cd ~
+clear
+ls
+ls -la
+exit
+clear
+ls
+git pull
+lcear
+clear
+git diff
+cd ..
+cd -
+vf
+vifm
+clear
+ls -la
+cd .git
+clear
+ls
+vim config 
+git pull
+cd ..
+git pull
+clear
+emacs &
+clear
+go env -w GIT_TERMINAL_PROMPT=1
+go env -w "GIT_TERMINAL_PROMPT=1"
+go env -h
+go help env
+clear
+go env GOENV
+clear
+go env GOENV
+cat $(go env GOENV)
+goenv
+go env
+cea
+clear
+go mod tidy
+clear
+go mod tidy
+clear
+go mod tidy
+clear
+cd ..
+cd zaplogcont/
+clear
+ls
+cd tmp/
+clea
+clear
+ls
+git clone -v https://git.eltoversum.cz/kacabaj/auxmodlib.git
+clear
+ls
+rm -r auxmodlib/
+rm -rf auxmodlib/
+ls
+cd ..
+ls
+cd tmp/
+clear
+git help -a
+git help -a | grep credential-credential-foo
+git help -a | grep credential
+git help credential-foo
+clear
+cd ..
+clear
+ls
+ls -la
+clear
+cd ~
+ls
+ls -al
+vim .gitconfig 
+clear
+ls
+git config credential.https://git.eltoversum.cz/ kacabaj
+clear
+cd -
+clear
+go mod tidy
+go mod tidy -v
+clear
+git config --global credential.helper store
+clear
+git config --global credential.helper store
+git config --global credential.https://git.eltoversum.cz/.username kacabaj
+clear
+go mod tidy
+clear
+go mod tidy
+clear
+go mod tidy -v
+clear
+go mod init localhost/mongotest
+clear
+go get go.mongodb.org/mongo-driver/mongo
+go get go.mongodb.org/mongo-driver/bson
+clear
+emacs &
+exit
+exi
+exit
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+emacs --debug-init
+emacs &
+clear
+exit
+emacs &
+clear
+emacs &
+emacs --debug-init
+clear
+emacs --debug-init
+emacs &
+clear
+emacs &
+clear
+exit
+emacs &
+clear
+emacs &
+exit
+emacs &
+ping www.google.com
+curl www.google.com
+clear
+emacs &
+emacs --debug-init
+clear
+emacs --debug-init
+clear
+emacs
+cd /etc/PROBLEMS
+emacs
+clear
+exit
+cleqr
+emacs &
+python3.9 version
+python --version
+python3.9 
+python3.9 --
+man python
+clear
+ls
+emacs &
+clear
+emacs &
+exit
+python3
+exit
+python3 --version
+python --version
+vf
+vifm
+echo $PATH
+python3.9 
+clear
+emacs &
+echo $PATH
+vf
+vifm
+type python
+emacs &
+su maker
+sudo apt install python
+su maker
+emacs &
+ls -l /usr/bin/python
+ls -l /usr/bin/python*
+exit
+su maker
+exit
+emacs &
+clear
+emacs &
+clear
+emacs &
+exit
+emca &
+emacs &
+clear
+emacs &
+emacs --debug-init
+emacs &
+clear
+emacs &
+bash
+emacs &
+clear
+emacs &
+[A
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+exit
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+clear
+emacs &
+exit
+emacs
+clear
 exit

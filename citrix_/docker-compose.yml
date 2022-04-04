@@ -1,0 +1,19 @@
+#RESERCH https://xpra.org/
+version: '3.9'
+services:
+  citrix: 
+    image: localhost/citrix
+    container_name: citrix
+    command: bash
+    environment:
+      DISPLAY: "${DISPLAY}"
+    devices:
+      - /dev/snd
+      - /dev/dri/card0
+    volumes:
+      - /usr/share/fonts:/usr/share/fonts:ro
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native
+      - ${HOME}/.config/pulse/cookie:/root/.config/pulse/cookie
+
+      - ${HOME}${USERPROFILE}/.netrc:/${HOME}.netrc

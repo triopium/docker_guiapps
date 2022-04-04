@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1644353964,,"q"
+|2,0,1645525520,,"q"
 :wa
-|2,0,1638877355,,"wa"
+|2,0,1645525519,,"wa"
+:reg
+|2,0,1645525037,,"reg"
 :q!
 |2,0,1638390435,,"q!"
 :version
@@ -32,9 +34,9 @@
 "0	LINE	0
 	GOENVVERSION=go1.17
 |3,0,0,1,1,0,1636192191,"GOENVVERSION=go1.17"
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1638877351,""
+|3,0,1,1,1,0,1638877351,""
 "2	LINE	0
 	
 |3,0,2,1,1,0,1636192205,""
@@ -47,235 +49,282 @@
 "c	CHAR	0
 	lea€kbq
 |3,0,12,0,1,0,1638390432,"lea€kbq"
-"-	CHAR	0
-	#
-|3,0,36,0,1,0,1636198780,"#"
+""-	CHAR	0
+	.git
+|3,1,36,0,1,0,1645525517,".git"
 
 # File marks:
-'0  1  0  ~/Data/Gopd/uploader/images/latest.jpg
-|4,48,1,0,1644353964,"~/Data/Gopd/uploader/images/latest.jpg"
-'1  1  0  ~/.bashrc
-|4,49,1,0,1641762019,"~/.bashrc"
-'2  1  0  ~/.bash_aliases
-|4,50,1,0,1638877363,"~/.bash_aliases"
-'3  1  0  ~/Data/Gopd/uploader/go.mod
-|4,51,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
-'4  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,52,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
-'5  1  4  ~/Data/Gopd/uploader/.goenv
-|4,53,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
-'6  1  0  ~/Data/Gopd/uploader/.goenv
-|4,54,1,0,1638376999,"~/Data/Gopd/uploader/.goenv"
-'7  1  0  ~/Data/Gopd/testerdp1/src/testerdp/go.mod
-|4,55,1,0,1636291731,"~/Data/Gopd/testerdp1/src/testerdp/go.mod"
-'8  1  20  ~/Data/Gopd/testerdp/.goenv
-|4,56,1,20,1636198874,"~/Data/Gopd/testerdp/.goenv"
-'9  1  0  ~/Data/Gopd/testerdp/.env
-|4,57,1,0,1636198865,"~/Data/Gopd/testerdp/.env"
+'0  7  53  ~/Data/Gopd/auxmodlib/.git/config
+|4,48,7,53,1645525520,"~/Data/Gopd/auxmodlib/.git/config"
+'1  1  0  ~/Data/Gopd/auxmodlib/.git/config
+|4,49,1,0,1645525285,"~/Data/Gopd/auxmodlib/.git/config"
+'2  1  0  ~/Data/Gopd/auxmodlib/.git/config
+|4,50,1,0,1645525285,"~/Data/Gopd/auxmodlib/.git/config"
+'3  5  14  ~/.gitconfig
+|4,51,5,14,1645525094,"~/.gitconfig"
+'4  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,52,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+'5  2  0  ~/Data/Gopd/uploader/go.sum
+|4,53,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+'6  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,54,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+'7  1  0  /tmp/CVLPSF_Dockerfile
+|4,55,1,0,1645435828,"/tmp/CVLPSF_Dockerfile"
+'8  1  0  ~/Data/Gopd/uploader/images/latest.jpg
+|4,56,1,0,1644353964,"~/Data/Gopd/uploader/images/latest.jpg"
+'9  1  0  ~/.bashrc
+|4,57,1,0,1641762019,"~/.bashrc"
 
 # Jumplist (newest first):
--'  1  0  ~/Data/Gopd/uploader/images/latest.jpg
-|4,39,1,0,1644353964,"~/Data/Gopd/uploader/images/latest.jpg"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641762019,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641762019,"~/.bashrc"
--'  138  0  ~/.bashrc
-|4,39,138,0,1641762018,"~/.bashrc"
--'  138  0  ~/.bashrc
-|4,39,138,0,1641762018,"~/.bashrc"
--'  124  21  ~/.bashrc
-|4,39,124,21,1641762015,"~/.bashrc"
--'  124  21  ~/.bashrc
-|4,39,124,21,1641762015,"~/.bashrc"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1638877363,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1638877363,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1638877363,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1638877363,"~/.bash_aliases"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/go.mod
-|4,39,1,0,1638437632,"~/Data/Gopd/uploader/go.mod"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  0  ~/Data/Gopd/uploader/.gitignore
-|4,39,1,0,1638377239,"~/Data/Gopd/uploader/.gitignore"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
--'  1  4  ~/Data/Gopd/uploader/.goenv
-|4,39,1,4,1638377012,"~/Data/Gopd/uploader/.goenv"
+-'  7  53  ~/Data/Gopd/auxmodlib/.git/config
+|4,39,7,53,1645525520,"~/Data/Gopd/auxmodlib/.git/config"
+-'  1  0  ~/Data/Gopd/auxmodlib/.git/config
+|4,39,1,0,1645525487,"~/Data/Gopd/auxmodlib/.git/config"
+-'  1  0  ~/Data/Gopd/auxmodlib/.git/config
+|4,39,1,0,1645525285,"~/Data/Gopd/auxmodlib/.git/config"
+-'  5  14  ~/.gitconfig
+|4,39,5,14,1645525094,"~/.gitconfig"
+-'  5  14  ~/.gitconfig
+|4,39,5,14,1645525094,"~/.gitconfig"
+-'  5  14  ~/.gitconfig
+|4,39,5,14,1645525094,"~/.gitconfig"
+-'  5  14  ~/.gitconfig
+|4,39,5,14,1645525094,"~/.gitconfig"
+-'  4  0  ~/.gitconfig
+|4,39,4,0,1645525030,"~/.gitconfig"
+-'  4  0  ~/.gitconfig
+|4,39,4,0,1645525030,"~/.gitconfig"
+-'  4  0  ~/.gitconfig
+|4,39,4,0,1645525030,"~/.gitconfig"
+-'  4  0  ~/.gitconfig
+|4,39,4,0,1645525030,"~/.gitconfig"
+-'  3  0  ~/.gitconfig
+|4,39,3,0,1645525017,"~/.gitconfig"
+-'  3  0  ~/.gitconfig
+|4,39,3,0,1645525017,"~/.gitconfig"
+-'  3  0  ~/.gitconfig
+|4,39,3,0,1645525017,"~/.gitconfig"
+-'  3  0  ~/.gitconfig
+|4,39,3,0,1645525017,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1645525006,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1645525006,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1645525006,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1645525006,"~/.gitconfig"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  4  7  ~/Data/Gopd/videoserver/.netrc
+|4,39,4,7,1645451240,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  1  0  ~/Data/Gopd/videoserver/.netrc
+|4,39,1,0,1645451231,"~/Data/Gopd/videoserver/.netrc"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  2  0  ~/Data/Gopd/uploader/go.sum
+|4,39,2,0,1645447798,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  ~/Data/Gopd/uploader/go.sum
+|4,39,1,0,1645447793,"~/Data/Gopd/uploader/go.sum"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/8HDFJt_buildImageBuildkit.sh
+|4,39,1,0,1645435840,"/tmp/8HDFJt_buildImageBuildkit.sh"
+-'  1  0  /tmp/CVLPSF_Dockerfile
+|4,39,1,0,1645435828,"/tmp/CVLPSF_Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/Data/Gopd/auxmodlib/.git/config
+	*	1645525519	0
+	"	7	53
+	^	7	54
+	.	7	53
+	+	7	53
+
+> ~/.gitconfig
+	*	1645525058	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	3	0
+	+	3	26
+	+	4	0
+	+	4	12
+	+	5	14
+
+> ~/Data/Gopd/videoserver/.netrc
+	*	1645451240	0
+	"	4	7
+	^	3	5
+	.	3	4
+	+	5	0
+	+	2	4
+	+	3	4
+
+> ~/Data/Gopd/uploader/go.sum
+	*	1645447796	0
+	"	2	0
+
+> /tmp/8HDFJt_buildImageBuildkit.sh
+	*	1645435838	0
+	"	1	0
+
+> ~/Data/Gopd/videoserver/buildImageBuildkit.sh
+	*	1645435837	0
+	"	1	0
+
+> /tmp/CVLPSF_Dockerfile
+	*	1645435827	0
+	"	1	0
+
+> ~/Data/Gopd/videoserver/Dockerfile
+	*	1645435819	0
+	"	1	0
 
 > ~/Data/Gopd/uploader/images/latest.jpg
 	*	1644353961	0

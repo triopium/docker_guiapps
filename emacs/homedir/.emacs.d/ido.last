@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jk/Data/Gopd/bmcom_tutor1/FritzBox7590/" . "LAN/")
+ ("/home/jk/Data/Gopd/videoserver/src/videoserver/" . "logging/")
  ("/home/jk/Data/Gopd/uploader/frontend/" . "images/")
  ("/home/jk/Data/Gopd/uploader/images/" . "source/")
 )
@@ -18,6 +20,24 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jk/Data/Gopd/bmcom_tutor1/" (25162 45846 833364 510000) "_Defauls/" "mfuncs/" "emacs_docker.override.yml" ".gitignore" "parameters_table.txt" "FritzBox7590/" ".git/" "../" "meet-2022-03-09_10.25.52.mkv" "Jan Kacaba - Tasks/" ".bmcom.txt.swp" "bmcom.txt" "ffuncs/" "./" "meet2-2022-03-31_12.57.59.mkv" ".~lock.cpemanager_properties.ods#" ".goenv" "Flows/" "cpemanager_properties.ods")
+
+ ("/home/jk/Data/Gopd/bmcom_tutor1/ffuncs/" (25162 46311 622163 86000) "#eval_enabled.py#" "../" "./" "eval_enabled.py" ".#eval_enabled.py")
+
+ ("/home/jk/Data/Gopd/bmcom_tutor1/FritzBox7590/" (25148 32663 930045 664000) "otazky.txt" "back.txt" ".otazky2.txt.swp" "WLAN/" "OVERVIEW/" "otazky2.txt" "otazky.txt~" "config.py" "../" "tree.json" "error.txt" "WAN/" "./" "LAN/" "test_copy.py~" "test_copy.py")
+
+ ("/home/jk/Data/Gopd/bmcom_tutor1/FritzBox7590/OVERVIEW/" (25147 23859 900975 254000) "cpe_overview.py" "../" "./" "cpe_overview.py~")
+
+ ("/home/jk/Data/Gopd/mongotest/src/" (25123 40163 75871 734000) "../" "./")
+
+ ("/home/jk/Data/Gopd/mongotest/" (25123 40163 75871 734000) "emacs_docker.override.yml" "docker-compose.yml" "src/" "go.mod" "go.sum" "../" "./" ".goenv")
+
+ ("/home/jk/Data/Gopd/videoserver/src/videoserver/" (25107 42988 799207 303000) "helper/" "main.go" "../" "./" "ftpserve/" "config/" "logging/")
+
+ ("/home/jk/Data/Gopd/videoserver/" (25107 42318 258375 195000) ".gitlab-ci.yml" ".gitignore" ".git/" "src/" "go.mod" "go.sum" "../" "./" ".goenv~" ".netrc" ".goenv" ".goenv.swp")
+
+ ("/home/jk/Data/Gopd/videoserver/src/videoserver/config/" (25107 41841 268625 260000) "cfg.go" "config.go~" "../" "config_test.go~" "config_test.go" "./" "cfgfuncs.go" "cfgfuncs.go~")
+
  ("/home/jk/Data/Gopd/uploader/" (25098 22940 692893 603000) "runstreamer.sh~" "buildbinary.sh" "testmainremote.sh~" "runuploader.sh~" "builddockerimage.sh~" "scripts/" ".dockerignore" "builddockerimagegitlab.sh" "dockerfile~" "frontend/" ".gitignore" "testmainremote.sh" "runbin.sh" ".git/" "videoserver.ssh" "builddockerimagegitlab.sh~" "docker-compose.yml" "src/" "docker-compose.defaults.yml" "README.md" "go.mod" "testmain.sh~" "testmainlocaly.sh" "go.sum" "runcopier.sh~" "buildbinary.sh~" "docker-compose.yml~" "../" "builddockerimage.sh" "ansibledeploy.sh" "ansibledeploy.sh~" "runstreamer.sh" "runmain.sh~" "images/" "./" "videos/" ".dockerignore~" ".netrc" "uploader.bin" "runcopier.sh" ".goenv" "restpoints.rst" "mount/" "dockerfile" "restpoints.rst~" "pkg/" "runuploader.sh" "Dockerfile~")
 
  ("/home/jk/Data/Gopd/uploader/frontend/pages/" (25099 36257 919250 174000) "LatestImageReload/" "reload_image/" "../" "./")

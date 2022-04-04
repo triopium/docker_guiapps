@@ -38,7 +38,16 @@ RUN apt-get -y update \
 	sudo \
 	jq \
 	feh \
-	lsof
+	lsof \
+	less \
+	python \
+	python3 \
+	man-db \
+	nodejs \
+	npm
+
+RUN npm install -g @angular/cli
+
 
 # RUN apt-get -y update \
 	# && DEBIAN_FRONTEND=noninteractive \

@@ -23,10 +23,12 @@
 
 
 ;; PACKAGE ARCHIVES
-(setq package-archives '(("org"       . "http://orgmode.org/elpa/")
-                         ("gnu"       . "http://elpa.gnu.org/packages/")
-                         ("melpa"     . "http://melpa.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")))
+(setq package-archives '(("org" . "http://orgmode.org/elpa/")
+                         ("gnu"
+                         . "http://elpa.gnu.org/packages/")
+                         ("melpa" . "http://melpa.org/packages/")
+                         ("marmalade"
+                         . "http://marmalade-repo.org/packages/")))
 
 ;; GLOBAL HOTKEYS
 (global-set-key "\M-\S-k" 'shrink-window)
@@ -85,4 +87,4 @@
 ;; (setq ns-pop-up-frames nil)
 
 (load "~/.emacs.d/straightcfg.el")
-
+(setq python-shell-interpreter "python3")

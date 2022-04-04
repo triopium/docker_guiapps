@@ -1,3 +1,12 @@
-[user]
-	name = kacabaj
+; [user]
+	; name = kacabaj
+	; email = kacabaj@eltodo.cz
+; [credential]
+	; helper = store
+[credential "https://git.eltoversum.cz/*"]
+	username = kacabaj
 	email = kacabaj@eltodo.cz
+	helper = store
+[user]
+	email = kacabaj@eltodo.cz
+	name = kacabaj

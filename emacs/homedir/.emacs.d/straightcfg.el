@@ -50,30 +50,31 @@
 
 ;; vim-like keybindings everywhere in emacs
 (use-package evil-collection
-    :after evil
-    :ensure t
-    :config
-    (evil-collection-init)
-    (define-key evil-normal-state-map "+" 'text-scale-increase)
-    (define-key evil-normal-state-map "-" 'text-scale-decrease)
-		(define-key evil-normal-state-map "ů" 'comment-line)
-		;; Make evil-mode up/down operate in screen lines instead of logical lines
-		(define-key evil-motion-state-map "j" 'evil-next-visual-line)
-		(define-key evil-motion-state-map "k" 'evil-previous-visual-line)
-		;; Also in visual mode
-		(define-key evil-visual-state-map "j" 'evil-next-visual-line)
-		(define-key evil-visual-state-map "k" 'evil-previous-visual-line)
+	;; :diminish evil-collec
+	:after evil
+	:ensure t
+	:config
+	(evil-collection-init)
+	(define-key evil-normal-state-map "+" 'text-scale-increase)
+	(define-key evil-normal-state-map "-" 'text-scale-decrease)
+	(define-key evil-normal-state-map "ů" 'comment-line)
+	;; Make evil-mode up/down operate in screen lines instead of logical lines
+	(define-key evil-motion-state-map "j" 'evil-next-visual-line)
+	(define-key evil-motion-state-map "k" 'evil-previous-visual-line)
+	;; Also in visual mode
+	(define-key evil-visual-state-map "j" 'evil-next-visual-line)
+	(define-key evil-visual-state-map "k" 'evil-previous-visual-line)
 		;; (evil-define-key 'normal lsp-mode-map (kbd "RET") lsp-list-errors)
 		;; (define-key lsp-mode-map (kbd "RET") 'lsp-list-errors)
     )
 
 ;; EVIL MOTION
 (use-package avy
-						 :ensure t
-						 :config
-						 (avy-setup-default)
-						 ;; (global-set-key (kbd "<leader> j") "avy-goto-line")
-						 )
+	:ensure t
+	:config
+	(avy-setup-default)
+	;; (global-set-key (kbd "<leader> j") "avy-goto-line")
+	)
 
 (use-package smooth-scrolling
 						 :ensure t
@@ -96,14 +97,22 @@
 	(progn
     (evil-leader/set-leader "<SPC>")
 		(evil-leader/set-key
-		"<SPC>e" 'find-file
-		"<SPC>k" 'kill-buffer
-		"<SPC>Z" 'toggle-frame-fullscreen
-		"<SPC>l" 'buffer-menu
-		"j" 'evil-avy-goto-line
-		"k" 'avy-goto-word-0
-		"s" 'avy-isearch
-		"r" 'avy-resume
+      ;; "<SPC><SPC>r" 'load-file
+      ;; "<SPC><SPC>r" (load-file ~/.emacs.d/init.el)
+      "<SPC><SPC>r" (lambda () (interactive) (load-file "~/.emacs.d/init.el"))
+		  "<SPC>e" 'find-file
+		  "<SPC>k" 'kill-buffer
+		  "<SPC>Z" 'toggle-frame-fullscreen
+		  "z" 'zoom-window-zoom
+		  "l" 'buffer-menu
+		  "<SPC>l" 'persp-list-buffers
+		  "j" 'evil-avy-goto-line
+		  "k" 'avy-goto-word-0
+      "h" 'avy-goto-char
+      "H" 'avy-goto-char-2
+		  ;; "s" 'avy-isearch
+		  ;; "r" 'avy-resume
+      ""
 		;; "f" 'evil-avy-goto-char-2
 		;; "j" 'evil-avy-goto-char
 		;; "x" 'shell-toggle
@@ -122,13 +131,13 @@
 
 ;; THEMES
 (use-package solarized-theme
-	     :ensure t
-	     :config
-	     (load-theme 'solarized-dark t)
-	     )
+	:ensure t
+	:config
+	(load-theme 'solarized-dark t)
+	)
 
 (use-package molokai-theme
-	     :disabled
+	:disabled
   :ensure t
   :load-path "themes"
   :init
@@ -138,34 +147,34 @@
   )
 
 (use-package all-the-icons
-						 :ensure t
-						 :init
-						 (setq inhibit-compacting-font-caches t) ;; if slow rendering
-						 ;; (all-the-icons-install-fonts)
-						 ;; (all-the-icons-icon-for-buffer)
-						 ;; (all-the-icons-icon-for-dir)
-						 ;; (all-the-icons-icon-for-file)
-						 ;; (all-the-icons-icon-for-mode)
-						 ;; (all-the-icons-icon-for-url)
-						 )
+	:ensure t
+	:init
+	(setq inhibit-compacting-font-caches t) ;; if slow rendering
+	;; (all-the-icons-install-fonts)
+	;; (all-the-icons-icon-for-buffer)
+	;; (all-the-icons-icon-for-dir)
+	;; (all-the-icons-icon-for-file)
+	;; (all-the-icons-icon-for-mode)
+	;; (all-the-icons-icon-for-url)
+	)
 
 ;; Upon hotkey display letter inside visible buffers and the press letter to jump to that buffer
 (use-package ace-window
-						 :ensure t
-						 :init
-						 (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
-						 ;; (global-set-key (kbd "C-x o") 'ace-window)
-						 (global-set-key (kbd "M-o") 'ace-window)
-						 :diminish ace-window-mode
-						 )
+	:ensure t
+	:init
+	(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
+	;; (global-set-key (kbd "C-x o") 'ace-window)
+	(global-set-key (kbd "M-o") 'ace-window)
+	:diminish ace-window-mode
+	)
 
 ;; BUFFER HEADER
 ;; https://www.emacswiki.org/emacs/HeaderLine
 (use-package path-headerline-mode
-						 :ensure t
-						 :init
-						 (path-headerline-mode 1)
-						 )
+	:ensure t
+	:init
+	(path-headerline-mode 1)
+	)
  
 
 
@@ -178,25 +187,54 @@
 							;; )
            ;; (getenv "USER")))
 
-(use-package powerline
-						 :config
-						 (setq powerline-height 28
-							;; powerline-display-buffer-size t
-							)
-						 ;; (powerline-center-evil-theme)
-						 ;; (load-theme 'powerline-evil-center-color-theme t)
-						 )
 
+
+(use-package powerline
+	:config
+	(setq powerline-height 28
+		;; powerline-display-buffer-size t
+		)
+	;; (powerline-center-evil-theme)
+	;; (load-theme 'powerline-evil-center-color-theme t)
+	)
 
 (use-package airline-themes
-						 :ensure t
-						 :after powerline
-						 :config
-						 (load-theme 'airline-distinguished t)
-						 (setq powerline-default-separator 'utf-8)
-						 (setq powerline-utf-8-separator-left  #xe0b0
-									 powerline-utf-8-separator-right #xe0b2)
-						 )
+  :ensure t
+	:after powerline
+	:config
+	(load-theme 'airline-distinguished t)
+	)
+;; (load-theme 'airline-minimalist t)
+
+(use-package zoom-window 
+	:ensure t
+	:after airline-themes
+	:bind
+	:config
+	:init
+	)
+
+;; (zoom-window-mode-line-color "green")
+
+
+;; Allow use-package to remove mode-lines
+;;(use-package airline-themes
+;;	:ensure t
+;;	:after powerline
+;;	:config
+;;	(load-theme 'airline-distinguished t)
+;;	(setq powerline-default-separator 'utf-8)
+;;	(setq powerline-utf-8-separator-left  #xe0b0
+;;		powerline-utf-8-separator-right #xe0b2)
+;;	;; (zoom-window-mode-line-color "darkGreen")
+;;	)
+
+(use-package diminish
+	:ensure t
+	:config
+	:diminish 'eldoc-mode
+	:diminish 'evil-collection-unimpaired-mode
+	)
 
 ;; (add-hook 'after-init-hook 'powerline-reset)
 
@@ -263,7 +301,8 @@
 
 (use-package undo-tree
   :ensure t
-  :diminish undo-tree-mode
+  :diminish 'undo-tree-mode
+  ;; :diminish (Undo-Tree-mode . "Y")
   :init
   (global-undo-tree-mode 1)
   :config
@@ -366,6 +405,7 @@
 ;; KEYBINDING HELPER
 ;; https://lupan.pl/dotemacs/
 (use-package which-key
+	:diminish 'which-key-mode
   :ensure t
 	:init
 	(which-key-mode 1)
@@ -376,8 +416,6 @@
         which-key-idle-delay 2
         which-key-show-early-on-C-h t
         which-key-idle-secondary-delay 0.05)
-	:diminish
-	which-key-mode
 	)
 
 (global-set-key (kbd "C-c h b") 'describe-personal-keybindings)
@@ -412,6 +450,7 @@
 
 (use-package flycheck
   :ensure t
+	:diminish 'flycheck-mode
   :init (global-flycheck-mode)
 	:config
 	(define-key flycheck-mode-map (kbd "M-n b") 'flycheck-buffer)
@@ -459,13 +498,15 @@
 ;;	 )
 
 (use-package company-lsp
-	 :ensure t
-   :init
-	 :config
-	 ;; (evil-collection-company-use-tng  nil)
-	 ;; :commands
-	 :bind
-	 )
+	:diminish 'company-lsp-mode
+	:diminish 'company-mode
+	:ensure t
+	:init
+	:config
+	;; (evil-collection-company-use-tng  nil)
+	;; :commands
+	:bind
+	)
 
 (use-package treemacs
 ;; tree layout file explorer for emacs
@@ -515,27 +556,71 @@
 (use-package esup
   :ensure t
   ;; To use MELPA Stable use ":pin melpa-stable",
-  :pin melpa)
+  :pin melpa
+	)
 
 ;;; run after load
 ;; (defun my-project-hook () (neotree-find))
 ;; (add-hook 'find-file-hook 'my-project-hook)
-(neotree-show)
+;; (neotree-show)
 ;; (neotree-find)
 
 ;;;; REST
 (use-package restclient
-	 :ensure t
-   :init
-	 )
+	:ensure t
+  :init
+	)
 
-(use-package company-restclient
-	 :ensure t
-   :init
-	 )
+;; (use-package company-restclient
+	 ;; :ensure t
+   ;; :init
+	 ;; )
 
 (use-package docker-compose-mode)
 (use-package dockerfile-mode)
 
 ;; (find-file "~/Gopd/uploader/src/uploader/httpserver/router.go")
+
+;; SNIPPETS
+(use-package yasnippet                  ; Snippets
+  :ensure t
+  :config
+  )
+
+(use-package yasnippet-snippets         ; Collection of snippets
+	:ensure t )
+
+;; WINDOW MANAGEMENT
+;; perspective, workgroups, elscreen
+
+;; (use-package perspective
+	;; :ensure t
+	;; :bind
+	;; :init
+	;; (persp-mode)
+;;    s — persp-switch: Query a perspective to switch to, or create
+;;    ` — persp-switch-by-number: Switch to perspective by number, or switch quickly using numbers 1, 2, 3.. 0 as prefix args; note this will probably be most useful with persp-sort set to 'created
+;;    k — persp-remove-buffer: Query a buffer to remove from current perspective
+;;    c — persp-kill : Query a perspective to kill
+;;    r — persp-rename: Rename current perspective
+;;    a — persp-add-buffer: Query an open buffer to add to current perspective
+;;    A — persp-set-buffer: Add buffer to current perspective and remove it from all others
+;;    b - persp-switch-to-buffer: Like switch-to-buffer; includes all buffers from all perspectives; changes perspective if necessary
+;;    i — persp-import: Import a given perspective from another frame.
+;;    n, <right> — persp-next: Switch to next perspective
+;;    p, <left> — persp-prev: Switch to previous perspective
+;;    m — persp-merge: Temporarily merge the buffers from one perspective into another
+;;    u — persp-unmerge: Undo the effects of a persp-merge
+;;    C-s — persp-state-save: Save all perspectives in all frames to a file
+;;    C-l — persp-state-load: Load all perspectives from a file
+
+	;; '(zoom-window-mode-line-color "DarkGreen"))
+
+
+
+
+;; FILE SUPPORT
+;; Large file support. This can view/edit/search and compare large files.
+
+(use-package vlf)
 
