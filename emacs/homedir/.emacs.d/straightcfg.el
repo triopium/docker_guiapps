@@ -97,27 +97,26 @@
 	(progn
     (evil-leader/set-leader "<SPC>")
 		(evil-leader/set-key
-      ;; "<SPC><SPC>r" 'load-file
-      ;; "<SPC><SPC>r" (load-file ~/.emacs.d/init.el)
-      "<SPC><SPC>r" (lambda () (interactive) (load-file "~/.emacs.d/init.el"))
+      "<SPC><SPC>r" (lambda () (interactive) (load-file "~/.emacs.d/init.el")) ;; reload config file
 		  "<SPC>e" 'find-file
 		  "<SPC>k" 'kill-buffer
 		  "<SPC>Z" 'toggle-frame-fullscreen
 		  "z" 'zoom-window-zoom
-		  "l" 'buffer-menu
 		  "<SPC>l" 'persp-list-buffers
 		  "j" 'evil-avy-goto-line
 		  "k" 'avy-goto-word-0
-      "h" 'avy-goto-char
-      "H" 'avy-goto-char-2
+		  "l" 'buffer-menu
+      "h" 'avy-goto-char ;; type char, then two
+      "g" 'avy-goto-char-2 ;; type two chars then one
+      "r" 'jump-to-register
+      "<SPC>r" 'window-configuration-to-register
 		  ;; "s" 'avy-isearch
 		  ;; "r" 'avy-resume
-      ""
-		;; "f" 'evil-avy-goto-char-2
-		;; "j" 'evil-avy-goto-char
-		;; "x" 'shell-toggle
-		;; "w" 'ewmctrl
-		)
+		  ;; "f" 'evil-avy-goto-char-2
+		  ;; "j" 'evil-avy-goto-char
+		  ;; "x" 'shell-toggle
+		  ;; "w" 'ewmctrl
+		  )
 		)
 	)
 
