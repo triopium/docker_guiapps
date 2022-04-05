@@ -97,7 +97,8 @@
 	(progn
     (evil-leader/set-leader "<SPC>")
 		(evil-leader/set-key
-      "<SPC><SPC>r" (lambda () (interactive) (load-file "~/.emacs.d/init.el")) ;; reload config file
+      ;; "<SPC><SPC>r" (lambda () (interactive) (load-file "~/.emacs.d/init.el")) ;; reload config file
+      "<SPC><SPC>r" 'restart-emacs
 		  "<SPC>e" 'find-file
 		  "<SPC>k" 'kill-buffer
 		  "<SPC>Z" 'toggle-frame-fullscreen
@@ -383,13 +384,56 @@
     )
 	)
 
-;; LISP
-(use-package rainbow-delimiters
-  :commands (rainbow-delimiters-mode)
-	:init
-	(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
-	)
+(use-package restart-emacs
+  :ensure t
+  :after general
+  :demand t
+  :config
+  )
+ ;; (nmap
+   ;; :prefix my/leader
+   ;; "Z" 'restart-emacs))
 
+;; LISP
+;; (use-package rainbow-delimiters
+  ;; :commands (rainbow-delimiters-mode)
+	;; :init
+	;; (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+;; )
+
+(use-package rainbow-delimiters
+  :commands
+  (rainbow-delimiters-unmatched-face)
+  :config
+  ;; Pastels
+  (set-face-attribute 'rainbow-delimiters-depth-1-face nil :foreground "#78c5d6")
+  (set-face-attribute 'rainbow-delimiters-depth-2-face nil :foreground "#bf62a6")
+  (set-face-attribute 'rainbow-delimiters-depth-3-face nil :foreground "#459ba8")
+  (set-face-attribute 'rainbow-delimiters-depth-4-face nil :foreground "#e868a2")
+  (set-face-attribute 'rainbow-delimiters-depth-5-face nil :foreground "#79c267")
+  (set-face-attribute 'rainbow-delimiters-depth-6-face nil :foreground "#f28c33")
+  (set-face-attribute 'rainbow-delimiters-depth-7-face nil :foreground "#c5d647")
+  (set-face-attribute 'rainbow-delimiters-depth-8-face nil :foreground "#f5d63d")
+  (set-face-attribute 'rainbow-delimiters-depth-9-face nil :foreground "#78c5d6")
+  ;; Make unmatched parens stand out more
+  (set-face-attribute
+    'rainbow-delimiters-unmatched-face nil
+    :foreground 'unspecified
+    :inherit 'show-paren-mismatch
+    :strike-through t)
+  (set-face-foreground 'rainbow-delimiters-unmatched-face "magenta")
+  :hook
+  (prog-mode . rainbow-delimiters-mode)
+  :diminish rainbow-delimiters-mode)
+
+(global-set-key "%" 'match-paren)
+(defun match-paren (arg)
+  "Go to the matching paren if on a paren; otherwise insert %."
+  (interactive "p")
+  (cond ((looking-at "\\s(") (forward-list 1) (backward-char 1))
+        ((looking-at "\\s)") (forward-char 1) (backward-list 1))
+        (t (self-insert-command (or arg 1)))))
+(show-paren-mode)
 
 (use-package dash
   :ensure t
@@ -404,6 +448,7 @@
 ;; KEYBINDING HELPER
 ;; https://lupan.pl/dotemacs/
 (use-package which-key
+  ;; Display all avaible keybindigs in popup
 	:diminish 'which-key-mode
   :ensure t
 	:init
@@ -420,6 +465,11 @@
 (global-set-key (kbd "C-c h b") 'describe-personal-keybindings)
 (use-package remind-bindings
   :bind ("H-?" . remind-bindings-togglebuffer))
+
+(use-package free-keys
+  ;; Show free keybindigs for modkeys or prefixes
+  :ensure t
+  )
 
 ;; LANGUAGES
 ;; Display possible completions at all places
